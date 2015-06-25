@@ -1,0 +1,12 @@
+# Site settings
+title: Cong Pham
+email: me@congphamdesign.com
+description: > # this means to ignore newlines until "baseurl:"
+  Cong Pham's official portfolio site. A collection of carefully curated and up-to-date works.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://congphamdesign.com" # the base hostname & protocol for your site
+twitter_username: congphammm
+github_username:  congp
+
+# Build settings
+markdown: kramdown

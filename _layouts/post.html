@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="row post-info">
+    <div class="medium-2 medium-offset-1 columns">
+        <h1 class="font-book fs22 primary-color">{{ page.title }}</h1>
+        <p class="font-book fs18 secondary-color">{{ page.project_type }}</p>
+    </div>
+    <div class="medium-6 columns left">
+        <p class="font-book fs16 lh200 secondary-color">
+            {{ content | remove: '<p>' | remove: '</p>' }}
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="medium-12 columns">
+        {% for prj_img in page.project_images %}
+            <img src="{{ site.baseurl }}/assets/img/{{prj_img}}">
+        {% endfor %}
+    </div>
+</div>
+{% if page.previous.url or page.next.url %}
+    <div class="row previous-next-project">
+        {% if page.previous.url %}
+        <div class="medium-6 columns text-left"> 
+            	<p class="font-book fs16 color-808080">Previous Project</p>
+            	<a href="{{ page.previous.url }}" class="font-bold fs22 main-color">{{ page.previous.title }}</a>
+        </div>
+        {% endif %}
+        {% if page.next.url %}
+        <div class="medium-6 columns right text-right">
+            	<p class="font-book fs16 color-808080">Next Project</p>
+            	<a href="{{ page.next.url }}" class="font-bold fs22 main-color">{{ page.next.title }}</a>
+        </div>
+        {% endif %}
+    </div>
+{% endif %}

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% include joke.html %}
+
+<!-- for loop goes here -->
+{% for post in site.posts %}
+    <article class="row">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            <div class="medium-12 columns post text-center">
+                <h1 class="font-book fs36 primary-color medium-8 large-5">{{ post.title }}</h1>
+                {% if post.feature_image %}
+                    <img src="img/feature-image.png" class="hide-for-small"/>
+                {% endif %}
+            </div>
+        </a>
+    </article>
+{% endfor %}

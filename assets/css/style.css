@@ -1,0 +1,125 @@
+.header {
+	padding: 46px 0;
+	background-color: white;
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+a:hover {
+	color: #333;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+.active {
+	color: #333;
+	pointer-events: none;
+	cursor: default;
+}
+
+.header a:hover{
+	border-bottom: solid 6px rgba(255,222,68,0.8);
+}
+
+.funny-joke {
+	padding-top: 138px;
+	margin-bottom: 72px;
+}
+
+.rand {
+	height: 72px;
+}
+
+.rand-item {
+	display: none;
+	position: absolute;
+}
+
+.post {
+	height: 554px;
+	background-color: #FFDE44;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 1;
+	transition: opacity ease 1s;
+	-webkit-transition: opacity ease 1s;
+	-moz-transition: opacity ease 1s;
+	-o-transition: opacity ease 1s;
+}
+
+.post:hover {
+	opacity: 0.8;
+}
+
+.post h1 {
+	margin: 0;
+	z-index: 2;
+}
+
+.post img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+}
+
+article {
+	margin-top: 15px !important;
+}
+
+article:first-child {
+	margin-top: 0 !important;
+}
+
+.footer {
+	padding: 46px 0 42px;
+}
+
+.footer p {
+	margin-bottom: 0;
+}
+
+.about-text a {
+	color: #333;
+}
+
+.about-text a:hover {
+	border-bottom: solid 6px rgba(255,222,68,0.8);
+}
+
+.post-info {
+	padding-top: 138px;
+}
+
+.post-info h1 {
+	margin: 0;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
+	.header {
+		position: relative;
+		padding: 20px 0;
+	}
+
+	nav li {
+		margin-top: 20px;
+	}
+
+	.post {
+		height: 450px;
+		text-align: left !important;
+	}
+}
