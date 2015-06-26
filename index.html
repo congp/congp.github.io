@@ -9,10 +9,7 @@ layout: default
     <article class="row">
         <a href="{{ post.url | prepend: site.baseurl }}">
             <div class="medium-12 columns post text-center">
-                <h1 class="font-book fs36 primary-color medium-8 large-5">{{ post.title }}</h1>
-                {% if post.feature_image %}
-                    <img src="img/feature-image.png" class="hide-for-small"/>
-                {% endif %}
+                <h1 class="font-book fs36 primary-color medium-8 large-5">{{ post.display_title }}</h1>
             </div>
         </a>
     </article>
