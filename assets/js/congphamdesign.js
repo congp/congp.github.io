@@ -21,3 +21,9 @@ function textRotate() {
         current.next().addClass('current').fadeIn(500);
     }
 }
+
+window.addEventListener('scroll', function () {
+  document.body.classList[
+    window.scrollY > 20 ? 'add': 'remove'
+  ]('scrolled');
+});

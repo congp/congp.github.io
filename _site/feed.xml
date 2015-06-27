@@ -4,11 +4,34 @@
     <title>Cong Pham</title>
     <description>Cong Pham's official portfolio site. A collection of carefully curated and up-to-date works.
 </description>
-    <link>https://congp.github.io/</link>
-    <atom:link href="https://congp.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 26 Jun 2015 22:10:23 +0700</pubDate>
-    <lastBuildDate>Fri, 26 Jun 2015 22:10:23 +0700</lastBuildDate>
+    <link>http://congphamdesign.com/</link>
+    <atom:link href="http://congphamdesign.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 27 Jun 2015 14:49:32 +0700</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2015 14:49:32 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Front-end Development Works</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://misfit.com/campaign/lumenati/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/img/front-end-works/front-end-misfit-lumenati-sxsw.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://misfit.com/wheretobuy&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/img/front-end-works/front-end-misfit-where-to-buy.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/front-end-works/front-end-misfit-mothersday.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/front-end-works/front-end-misfit-mothersday-mobile-3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/front-end-works/front-end-misfit-referral.png&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Jun 2015 00:00:00 +0700</pubDate>
+        <link>http://congphamdesign.com/coding/front-end-dev/2015/06/27/front-end-works.html</link>
+        <guid isPermaLink="true">http://congphamdesign.com/coding/front-end-dev/2015/06/27/front-end-works.html</guid>
+        
+        
+        <category>coding</category>
+        
+        <category>front-end-dev</category>
+        
+      </item>
     
       <item>
         <title>Condor Typeface</title>
@@ -23,8 +46,8 @@ Condor is a display typeface. Its usage would suit most with signage because of 
 Right now, Condor is still in its last phrase of developement and will probably be distributed for free soon. If you want to keep up to date with the progress, check back here often or shoot me an &lt;a href=&quot;mailto:me@congphamdesign.com&quot;&gt;email&lt;/a&gt; and I will send out mass email when it’s ready.&lt;/p&gt;
 </description>
         <pubDate>Thu, 25 Jun 2015 00:00:00 +0700</pubDate>
-        <link>https://congp.github.io/design/typeface/2015/06/25/condor-typeface.html</link>
-        <guid isPermaLink="true">https://congp.github.io/design/typeface/2015/06/25/condor-typeface.html</guid>
+        <link>http://congphamdesign.com/design/typeface/2015/06/25/condor-typeface.html</link>
+        <guid isPermaLink="true">http://congphamdesign.com/design/typeface/2015/06/25/condor-typeface.html</guid>
         
         
         <category>design</category>
