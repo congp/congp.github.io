@@ -33,6 +33,11 @@ body.scrolled .header:hover nav{
 
 a:hover {
 	color: #333;
+	border-bottom: solid 2px rgba(255,222,68,0.8);
+}
+
+a:focus {
+	color: #333 !important;
 }
 
 p {
@@ -50,12 +55,12 @@ nav li {
 }
 
 .header a:hover{
-	border-bottom: solid 6px rgba(255,222,68,0.8);
+	border-bottom: solid 2px rgba(255,222,68,0.8);
 }
 
 .funny-joke {
 	padding-top: 138px;
-	margin-bottom: 72px;
+	margin-bottom: 62px;
 }
 
 .rand {
@@ -101,22 +106,43 @@ article:first-child {
 
 .footer {
 	padding: 46px 0 42px;
+	position: relative;
 }
 
 .footer p {
 	margin-bottom: 0;
 }
 
-.about-text {
-	position: relative;
+.footer figure {
+	margin: 0 0 10px 0;
+	cursor: pointer;
 }
 
-.about-text a {
-	color: #333;
+.footer figcaption p {
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	bottom: -40px;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
 }
 
-.about-text a:hover {
-	border-bottom: solid 6px rgba(255,222,68,0.8);
+.footer figure:hover figcaption {
+	opacity: 1;
+}
+
+.footer figure:hover figcaption p {
+	-moz-transform: translateY(-8px);
+	-webkit-transform: translateY(-8px);
+	transform: translateY(-8px);
+}
+
+.footer figcaption {
+	opacity: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
 }
 
 .random-image {
@@ -159,6 +185,14 @@ article:first-child {
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	-o-transition: all ease 0.2s;
+}
+
+.next a:hover {
+	border-bottom: none;
+}
+
+.previous a:hover {
+	border-bottom: none;
 }
 
 .previous:hover, .next:hover {

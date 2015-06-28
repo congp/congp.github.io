@@ -1,6 +1,35 @@
 $(document).ready(function() {
     setupRotator();
+    coffeeStat();
+    footerCopy();
 });
+
+function footerCopy() {
+    var copies = [
+        '<span class="primary-color">391.2g</span> of coffee were consumed during the making of this site.',
+        '<span class="primary-color">5,750ml</span> of water were boiled during the making of this site.',
+        '<span class="primary-color">20</span> cups of coffee were brewed during the making of this site.'
+    ];
+
+    var theChosenOne = copies[Math.floor(Math.random()*copies.length)];
+
+    $('.copywriting').html(theChosenOne + '<br/>&copy; 2015 Cong');
+}
+
+function coffeeStat() {
+    var explodedCup = $('.footer img').data('hover');
+    var normalCup = $('.footer img').data('normal');
+
+    $('.footer figure').mouseenter(function(e){
+        e.preventDefault();
+        $('.footer img').attr("src", explodedCup);
+    });
+
+    $('.footer figure').mouseleave(function(e){
+        e.preventDefault();
+        $('.footer img').attr("src", normalCup);
+    });
+}
 
 function setupRotator() {
     if ($('.rand-item').length > 1) {
