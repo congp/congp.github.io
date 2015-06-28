@@ -139,6 +139,40 @@ article:first-child {
 	margin-top: 20px;
 }
 
+.previous-next-project {
+	width: 100%;
+	position: fixed;
+	top: 45%;
+	z-index: 9;
+}
+
+.previous, .next {
+	position: absolute;
+	opacity: 1;
+	transition: all ease 0.2s;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	-o-transition: all ease 0.2s;
+}
+
+.previous:hover, .next:hover {
+	opacity: 0.5;
+}
+
+.previous {
+	left: 30px;
+}
+
+.next {
+	right: 30px;
+}
+
+.empty {
+	opacity: 0.1 !important;
+	pointer-events: none;
+	cursor: default;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
 	.header {
 		position: relative;

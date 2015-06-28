@@ -19,18 +19,20 @@ layout: default
     </div>
 </div>
 {% if page.previous.url or page.next.url %}
-    <div class="row previous-next-project">
+    <div class="previous-next-project">
         {% if page.previous.url %}
-        <div class="medium-6 columns text-left"> 
-            	<p class="font-book fs16 color-808080">Previous Project</p>
-            	<a href="{{ page.previous.url }}" class="font-bold fs22 main-color">{{ page.previous.title }}</a>
-        </div>
+            <div class="previous">
+        {% else %}
+            <div class="previous empty">
         {% endif %}
+            <a href="{{ page.previous.url }}" class="font-bold fs22 primary-color">&larr;</a>
+        </div>
         {% if page.next.url %}
-        <div class="medium-6 columns right text-right">
-            	<p class="font-book fs16 color-808080">Next Project</p>
-            	<a href="{{ page.next.url }}" class="font-bold fs22 main-color">{{ page.next.title }}</a>
-        </div>
+            <div class="next">
+        {% else %}
+            <div class="next empty">
         {% endif %}
+            <a href="{{ page.next.url }}" class="font-bold fs22 primary-color">&rarr;</a>
+        </div>
     </div>
 {% endif %}
