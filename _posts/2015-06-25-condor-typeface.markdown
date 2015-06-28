@@ -4,10 +4,11 @@ title:  "Condor Typeface"
 display_title: "Condor Typeface&mdash;a typeface that celebrates the love of a language."
 categories: design typeface
 project_type: 'Typeface Design'
-project_images: ['condor-typeface/condor-1.png',
-				 'condor-typeface/condor-2.png',
-				 'condor-typeface/condor-3.png',
-				 'condor-typeface/condor-4.png',
+feature_image: ['condor-typeface/condor-feature-image.png']
+project_images: ['condor-typeface/condor-03.png',
+				 'condor-typeface/condor-04.png',
+				 'condor-typeface/condor-05.png',
+				 'condor-typeface/condor-06.png',
 				]
 ---
 
