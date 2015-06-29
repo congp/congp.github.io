@@ -12,8 +12,9 @@ function footerCopy() {
     ];
 
     var theChosenOne = copies[Math.floor(Math.random()*copies.length)];
+    var year = new Date().getFullYear()
 
-    $('.copywriting').html(theChosenOne + '<br/>&copy; 2015 Cong');
+    $('.copywriting').html(theChosenOne + '<br/>&copy;' + year + ' Cong');
 }
 
 function coffeeStat() {

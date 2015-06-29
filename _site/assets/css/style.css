@@ -73,6 +73,7 @@ nav li {
 }
 
 .post-link {
+	position: relative;
 	opacity: 1;
 	transition: opacity ease 0.5s;
 	-webkit-transition: opacity ease 0.5s;
@@ -81,11 +82,11 @@ nav li {
 }
 
 .post-link h1 {
-	width: 100%;
-	margin: 40px 0 0 0;
 	z-index: 2;
 	position: absolute;
+	top: 40px;
 	opacity: 1;
+	margin-left: 9.33333%;
 	transition: opacity ease 0.5s;
 	-webkit-transition: opacity ease 0.5s;
 	-moz-transition: opacity ease 0.5s;
@@ -223,8 +224,32 @@ article:first-child {
 		margin-top: 20px;
 	}
 
-	.post {
-		height: 450px;
-		text-align: left !important;
+	.post-link h1 {
+		position: relative;
+		top: 0;
+		margin: 2% 5% 0;
+		font-size: 1rem !important;
+	}
+
+	.post-info {
+		padding-top: 0;
+	}
+
+	.post-description {
+		margin-top: 24px;
+	}
+
+	.previous-next-project {
+		position: relative;
+		top: 0;
+		margin-top: 20px;
+	}
+
+	.next {
+		right: 6%;
+	}
+
+	.previous {
+		left: 6%;
 	}
 }

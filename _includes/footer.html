@@ -1,12 +1,18 @@
-<footer class="row footer text-center">
-	<div class="large-6 large-offset-3 columns">
+<footer class="row footer text-center hide-for-small">
+
+	<div class="medium-6 medium-offset-3 large-6 large-offset-3 columns">
 		<figure>
 	    	<img src="{{ site.baseurl }}/assets/img/coffee-cup-normal.svg" width="138" height="123" data-hover="{{ site.baseurl }}/assets/img/coffee-cup-hover.svg" data-normal="{{ site.baseurl }}/assets/img/coffee-cup-normal.svg"/>
 	    	<figcaption><p class="font-book fs16 secondary-color copywriting"></p></figcaption>
 		</figure>
 	</div>
 </footer>
-
+<footer class="row footer show-for-small">
+	<div class="small-6 columns">
+		<p class="font-book fs16 secondary-color">&copy; {{ site.time | date: '%Y' }}</p>
+	</div>
+</footer>
+	
 <script src="{{ site.baseurl }}/assets/js/foundation.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/congphamdesign.js"></script>
 <script>
