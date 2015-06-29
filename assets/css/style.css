@@ -81,10 +81,14 @@ nav li {
 	-o-transition: opacity ease 0.5s;
 }
 
-.post-link h1 {
+.post-title {
 	z-index: 2;
 	position: absolute;
 	top: 40px;
+}
+
+.post-link h1 {
+	margin: 0;
 	opacity: 1;
 	transition: opacity ease 0.5s;
 	-webkit-transition: opacity ease 0.5s;
@@ -223,10 +227,13 @@ article:first-child {
 		margin-top: 20px;
 	}
 
-	.post-link h1 {
+	.post-title {
 		position: relative;
 		top: 0;
-		margin: 2% 5% 0;
+		margin-top: 3%;
+	}
+
+	.post-title h1 {
 		font-size: 1rem !important;
 	}
 

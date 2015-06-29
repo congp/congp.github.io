@@ -7,7 +7,7 @@ permalink: /about/
 <div class="medium-1 medium-offset-2 columns text-right hide-for-small">
     <p class="font-book fs16 lh200 primary-color uppercase">TL;DR</p>
 </div>
-<div class="small-12 medium-6 columns left">
+<div class="small-12 medium-7 large-6 columns left">
     <p class="font-book fs16 lh200 secondary-color">
         <span class="show-for-small primary-color">TL;DR </span><span class="font-book-italic">I am going to have a rant about myself as a designer and the stuff I do.</span>
         <br/><br/>
