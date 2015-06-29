@@ -1,17 +1,17 @@
 $(document).ready(function() {
     setupRotator();
     coffeeStat();
-    footerCopy();
 });
 
-function footerCopy() {
-    var copies = [
-        '<span class="primary-color">391.2g</span> of coffee were consumed during the making of this site.',
-        '<span class="primary-color">5,750ml</span> of water were boiled during the making of this site.',
-        '<span class="primary-color">20</span> cups of coffee were brewed during the making of this site.'
-    ];
+var copies = [
+    '<span class="primary-color">391.2g</span> of coffee were consumed during the making of this site.',
+    '<span class="primary-color">5,750ml</span> of water were boiled during the making of this site.',
+    '<span class="primary-color">20</span> cups of coffee were brewed during the making of this site.'
+];
 
-    var theChosenOne = copies[Math.floor(Math.random()*copies.length)];
+function footerCopy(randomNumber) {
+
+    var theChosenOne = copies[randomNumber];
     var year = new Date().getFullYear()
 
     $('.copywriting').html(theChosenOne + '<br/>&copy;' + year + ' Cong');
@@ -23,6 +23,8 @@ function coffeeStat() {
 
     $('.footer figure').mouseenter(function(e){
         e.preventDefault();
+        var randomNumber = Math.floor(Math.random()*copies.length);
+        footerCopy(randomNumber);
         $('.footer img').attr("src", explodedCup);
     });
 
