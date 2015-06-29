@@ -48,6 +48,10 @@
     font-size: 2.25em;
 }
 
+.fs64 {
+    font-size: 4em;
+}
+
 /* line height */
 .lh120 {
     line-height: 120%;
