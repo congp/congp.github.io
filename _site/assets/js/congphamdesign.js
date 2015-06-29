@@ -6,7 +6,14 @@ $(document).ready(function() {
 var copies = [
     '<span class="primary-color">391.2g</span> of coffee were consumed during the making of this site.',
     '<span class="primary-color">5,750ml</span> of water were boiled during the making of this site.',
-    '<span class="primary-color">20</span> cups of coffee were brewed during the making of this site.'
+    '<span class="primary-color">20</span> cups of coffee were brewed during the making of this site.',
+    '<span class="primary-color">00</span> children were exploited during the making of this site.',
+    '<span class="primary-color">195.6</span> minutes were spent grinding beans during the making of this site.',
+    '<span class="primary-color">495</span> LEGO bricks were <a class="primary-color" href="https://instagram.com/p/3problHR9_/?taken-by=congphammm">used</a> during the making of this site.',
+    '<span class="primary-color">125,806</span> steps were recorded during the making of this site.',
+    '<span class="primary-color">13,693</span> points were earned during the making of this site.',
+    '<span class="primary-color">47,379.6</span> calories were burned during the making of this site.',
+    '<span class="primary-color">118.08</span> hours were spent sleeping during the making of this site.',
 ];
 
 function footerCopy(randomNumber) {
