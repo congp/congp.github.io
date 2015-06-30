@@ -7,11 +7,6 @@
     src: url('../fonts/lineto-circular-bookItalic.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'CircularMedium';
-    src: url('../fonts/lineto-circular-medium.ttf') format('truetype');
-    font-weight: normal;
-}
-@font-face {
     font-family: 'CircularBold';
     src: url('../fonts/lineto-circular-bold.ttf') format('truetype');
     font-weight: normal;
