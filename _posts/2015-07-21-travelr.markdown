@@ -1,0 +1,27 @@
+---
+layout: alt_post
+title:  "travelr App"
+display_title: "travelr &mdash; The right place for world explorers"
+categories: ux-ui-design
+project_type: 'UX/UI Design'
+feature_image: ['travelr/travelr-feature-image.png']
+opening_content: "<span class='font-bold'>travelr</span> is the place that connects people that love to travel. It\'s where they share wild ideas and fascinating stories. The app was born in the time when the Internet is full of low quality information and its only goal is to provide its users a better and more righteous information."
+---
+
+<img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-01.png">
+
+
+<img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-02.png">
+
+
+<img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-03.png">
+<div class="row" style="margin-top: 20px;">
+  <div class="small-12 medium-6 medium-push-3 columns left post-description">
+    <p class="font-book fs16 lh200 primary-color">
+      Slack introduced their emoji reaction back in July 2015 and I was fascinated by it. Thus, as a quick way to respond to an article, apart from like/heart and comment, user could use emoji as a way to represent their reactions. This could be a more creative way, which helps the user tell a more comprehensive story in less time.
+    </p>
+  </div>
+</div>
+
+
+<img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-04.png">
