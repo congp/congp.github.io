@@ -1,7 +1,7 @@
 ---
 layout: alt_post
 title:  "travelr App"
-display_title: "travelr &mdash; The right place for world explorers"
+display_title: "travelr&mdash;The right place for world explorers"
 categories: ux-ui-design
 project_type: 'UX/UI Design'
 feature_image: ['travelr/travelr-feature-image.jpg']

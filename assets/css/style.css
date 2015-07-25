@@ -109,7 +109,7 @@ article:first-child {
 }
 
 .footer {
-	padding: 46px 0 42px;
+	padding: 46px 0 32px;
 	position: relative;
 }
 
@@ -261,5 +261,9 @@ article:first-child {
 
 	.previous {
 		left: 6%;
+	}
+
+	.footer {
+		padding: 46px 0 46px;
 	}
 }
