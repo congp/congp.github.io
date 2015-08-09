@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'CircularBook';
     src: url('../fonts/lineto-circular-book.ttf') format('truetype');
 }
@@ -10,20 +10,25 @@
     font-family: 'CircularBold';
     src: url('../fonts/lineto-circular-bold.ttf') format('truetype');
     font-weight: normal;
-}
+}*/
+@import url(http://fonts.googleapis.com/css?family=Work+Sans:400,700);
 
 /* typeface classes */
 .font-book {
-    font-family: "CircularBook", "Helvetica Neue", "Helvetica" ,Helvetica, Arial, sans-serif;
+    /*font-family: "CircularBook", "Helvetica Neue", "Helvetica" ,Helvetica, Arial, sans-serif;*/
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
 .font-book-italic {
-    font-family: "CircularBookItalic", "Helvetica Neue", "Helvetica" ,Helvetica, Arial, sans-serif;
-}
-.font-medium {
-    font-family: "CircularMedium", "Helvetica Neue", "Helvetica" ,Helvetica, Arial, sans-serif;
+    /*font-family: "CircularBookItalic", "Helvetica Neue", "Helvetica" ,Helvetica, Arial, sans-serif;*/
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
 }
 .font-bold {
-    font-family: "CircularBold", "Helvetica Neue", "Helvetica" ,Helvetica, Arial, sans-serif;
+    /*font-family: "CircularBold", "Helvetica Neue", "Helvetica" ,Helvetica, Arial, sans-serif;*/
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
 }
 
 /* font sizes */
