@@ -1,6 +1,7 @@
 $(document).ready(function() {
-    setupRotator();
-    coffeeStat();
+  $('.post-title, .feature-image').addClass('show');
+  setupRotator();
+  coffeeStat();
 });
 
 var copies = [
