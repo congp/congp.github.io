@@ -9,11 +9,9 @@
 	<title>travelr App</title>
 	<meta name="description" content="">
 
-	<!-- STYLESHEETS -->
-	<link rel="stylesheet" href="/assets/css/typography.css" />
-    <link rel="stylesheet" href="/assets/css/color.css" />
+		<!-- STYLESHEETS -->
     <link rel="stylesheet" href="/assets/css/foundation.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/css/main.css" />
 
     <!-- FAVICON -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
@@ -29,20 +27,23 @@
     <body>
 
         <header class="header row">
-    <div class="small-12 medium-2 medium-offset-1 columns">
-        <a href="/" class="font-bold fs16 primary-color">Cong Pham</a>
-    </div>
+  <div class="small-12 medium-6 columns header__logo">
+    <a href="/">cong pham</a><span>&nbsp;&mdash;</span>
+    <p>dreamer, pixel pusher and maker of things</p>
+  </div>
+  <div class="small-12 medium-6 columns header__nav">
     <nav>
-        <li class="small-4 medium-1 columns">
-            <a id="home" href="/" class="active font-book fs16 secondary-color">Works</a>
-        </li>
-        <li class="small-4 medium-1 columns">
-            <a id="about" href="/about" class="font-book fs16 secondary-color">About</a>
-        </li>
-        <li class="small-4 medium-1 columns left">
-            <a href="mailto:me@congphamdesign.com" class="font-book fs16 secondary-color">Contact</a>
-        </li>
+      <li>
+        <a id="home" href="/" class="active">works</a>
+      </li>
+      <li>
+        <a id="about" href="/about">about</a>
+      </li>
+      <li>
+        <a href="mailto:me@congphamdesign.com">contact</a>
+      </li>
     </nav>
+  </div>
 </header>
 
             
@@ -93,21 +94,15 @@
 
 
 
-        <footer class="row footer text-center hide-for-small">
+        <footer class="row footer">
+	<div class="small-12 medium-6 columns footer__copyright">
+		<p>&copy;&nbsp;&mdash;&nbsp;&infin;</p>
+	</div>
+	<div class="small-12 medium-6 columns footer__social-links">
+		<p><a href="#">twitter</a>&nbsp;&mdash;&nbsp;<a href="#">instagram</a>&nbsp;&mdash;&nbsp;<a href="#">blog</a></p>
+	</div>
+</footer>
 
-	<div class="medium-6 medium-offset-3 large-6 large-offset-3 columns">
-		<figure>
-	    	<img src="/assets/img/coffee-cup-normal.svg" width="138" height="123" data-hover="/assets/img/coffee-cup-hover.svg" data-normal="/assets/img/coffee-cup-normal.svg"/>
-	    	<figcaption><p class="font-book fs16 secondary-color copywriting"></p></figcaption>
-		</figure>
-	</div>
-</footer>
-<footer class="row footer show-for-small">
-	<div class="small-6 columns">
-		<p class="font-book fs16 secondary-color">&copy; 2015</p>
-	</div>
-</footer>
-	
 <script src="/assets/js/foundation.min.js"></script>
 <script src="/assets/js/congphamdesign.js"></script>
 <script>
