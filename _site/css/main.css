@@ -11,7 +11,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  height: 100%;
+  font-family: "Circular", Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
@@ -126,6 +127,10 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0; }
+
+#container {
+  min-height: 100%;
+  position: relative; }
 
 /**
  * Wrapper
@@ -469,10 +474,29 @@ pre {
   .highlight .il {
     color: #099; }
 
+@font-face {
+  font-family: 'Circular';
+  font-weight: 500;
+  src: url("../assets/fonts/lineto-circular-book.eot");
+  src: url("../assets/fonts/lineto-circular-book.woff") format("woff"), url("../assets/fonts/lineto-circular-book.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Circular';
+  font-weight: 500;
+  font-style: italic;
+  src: url("../assets/fonts/lineto-circular-bookItalic.eot");
+  src: url("../assets/fonts/lineto-circular-bookItalic.woff") format("woff"), url("../assets/fonts/lineto-circular-bookItalic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Circular';
+  font-weight: 700;
+  src: url("../assets/fonts/lineto-circular-bold.eot");
+  src: url("../assets/fonts/lineto-circular-bold.woff") format("woff"), url("../assets/fonts/lineto-circular-bold.ttf") format("truetype"); }
 .header {
   padding-top: 74px; }
-  .header a {
-    font-weight: 700; }
+  .header__logo a {
+    font-weight: 700;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0); }
   .header__logo span {
     font-weight: 700; }
   .header__logo p {
@@ -498,14 +522,59 @@ pre {
           .header__nav nav li a:hover {
             opacity: 1; }
 
+.content {
+  margin-top: 99px;
+  padding-bottom: 180px;
+  position: relative; }
+  .content__body--text {
+    font-size: 22px;
+    line-height: 1.5; }
+  .content__image {
+    margin-top: 40px; }
+    .content__image img {
+      margin-bottom: 20px; }
+      .content__image img:last-child {
+        margin-bottom: 0; }
+  .content__previous-next-project {
+    width: 100%;
+    padding: 0 1%;
+    position: fixed;
+    top: 50%;
+    margin-top: -24px; }
+    .content__previous-next-project a {
+      font-size: 32px; }
+    .content__previous-next-project--previous {
+      float: left; }
+    .content__previous-next-project--next {
+      float: right; }
+    .content__previous-next-project .empty {
+      opacity: 0.5;
+      cursor: default;
+      pointer-events: none; }
+
 .list-posts {
-  margin-top: 100px; }
-  .list-posts__title:not(:first-child) {
-    margin-top: 44px; }
+  margin-top: 109px; }
+  .list-posts__title {
+    font-size: 2.25rem; }
+    .list-posts__title:not(:first-child) {
+      margin-top: 44px; }
+
+.post__title {
+  margin-bottom: 36px; }
+  .post__title h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.178571; }
+  .post__title p {
+    color: #71707C;
+    font-style: italic; }
 
 .footer {
-  padding: 74px 0 80px; }
-  .footer a, .footer p {
-    font-weight: 700; }
+  height: 180px;
+  padding-top: 74px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
   .footer__social-links {
     text-align: right; }

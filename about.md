@@ -4,25 +4,24 @@ title: Who am I?
 permalink: /about/
 ---
 
-<div class="medium-1 medium-offset-2 columns text-right hide-for-small">
-    <p class="font-book fs16 lh200 primary-color uppercase">TL;DR</p>
-</div>
-<div class="small-12 medium-7 large-6 columns left">
-    <p class="font-book fs16 lh200 secondary-color">
-        <span class="show-for-small primary-color">TL;DR </span><span class="font-book-italic">I am going to have a rant about myself as a designer and the stuff I do.</span>
-        <br/><br/>
-        I’m Cong, you probably already saw it up there on the header. I am a multidisciplinary designer based in Saigon, Vietnam. I design and build front-end for websites, UX/UI designer for mobile app, print designer and occasionally typeface designer. Currently full time UX/UI designer and front-end developer <a class="primary-color" href="http://misfit.com" target="_blank">@misfit</a>.
-        <br/><br/>
-        My time is split between, company work during the day and personal work, reading or self-learning during the night. I am a coffee-enthusiast and extremely interested in specialty coffee of all kind. I have a coffee <a class="primary-color" href="javascript:void(0)" target="_blank">notebook</a> to record every cup. I love bicycle and used to race in alley cats around the city. I love to explore, places and things.
-        <br/><br/>
-        Here comes the needy sentence…
-        <br/><br/>
-        If you like my works, don’t hesitate to contact me, I am available for hired or collaboration. Shoot me an <a class="primary-color" href="mailto:me@congphamdesign.com" target="_blank">email</a>, or DM me anywhere between <a class="primary-color" href="https://twitter.com/congphammm" target="_blank">Twitter</a> to <a class="primary-color" href="https://instagram.com/congphammm" target="_blank">Instagram</a>.
-        <br/><br/>
-        The site was typesetted in <a class="primary-color" href="javascript:void(0)">Circular</a>.
-
-        <span class="hide-for-small">For even more information, hover on the coffee cup below :)</span>
-    </p>
+<div class="small-12 medium-12 large-6 columns content__body">
+  <p class="content__body--text">
+    Hi, my name is Cong.
+    <br/><br/>
+    I am a designer and front-end developer, currently working at <a href="http://misfit.com">Misfit Wearables</a>. Let’s get a little personal so you could know a little about me.
+    <br/><br/>
+    Once upon a time, there was a guy studying Bachelor of Design at RMIT and he loved it. He then graduated with Honour among other 18 people from this 2014 class. His classmates went on with their lives after the graduation, so did he. He then got a job offer into a tech company, doing UI/UX design and it was great. With the fond of technology and the vision to change the world we’re living in, he worked hard. Paying attention to every single pixel, curating the best typefaces possible for each project and crafting the best experience for the products he was building. But that wasn’t enough, he thought.
+    <br/><br/>
+    Let’s rewind back a decade before the graduation real quick, and it was 2005, in Saigon, Vietnam. The young boy was deconstructing a CD reader, pulling it all apart to see what was inside, then putting them together bit by bit, module by module, screw by screw. It was the love of exploring, learning and building the surrounding things that struck him.
+    <br/><br/>
+    Now, ten years later he thought to himself that even though he could open up Sketch, building this wonderful UI but then it’s so dull, and static, nothing is happening and that’s no way to live. From that moment, he learned coding and that’s how the builder in him gives life to his work. Making it presentable, making it real and interactive.
+    <br/><br/>
+    People has been telling him to choose a path, either coding or designing, but he chose both because he knows with his personalities, he would want to build something and stuck with it until the product is shipped. He loves to get involved, get his hands dirty whilst fixing and improving. He loves design and at the same time he wants to stay true to code. Because without one another, it’s just a plain-ole-boring pile of pixels or a badly crafted product.
+    <br/><br/>
+    And there it is, my own little story for you to get to know me better. I’m always open up for works and/or collaborations. Don’t hesitate to shoot me an email. I promise I will reply and definitely never spam you.
+    <br/><br/>
+    Anyways, thank you for reading it this far. Good day to you!
+  </p>
 </div>
 
 <script>

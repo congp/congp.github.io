@@ -3,10 +3,10 @@ layout: default
 ---
 
 <!-- for loop goes here -->
-<div class="row list-posts">
-  <div class="small-12 medium-6 columns">
+<div class="row list-posts content">
+  <div class="small-12 medium-12 large-6 columns">
     {% for post in site.posts %}
-      <h1 class="list-posts__title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.display_title }}</a></h1>
+      <h1 class="list-posts__title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
     {% endfor %}
   </div>
 </div>

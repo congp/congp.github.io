@@ -1,0 +1,16 @@
+@mixin transform($function) {
+  transform: #{$function};
+  -webkit-transform: #{$function};
+  -moz-transform: #{$function};
+}
+
+@mixin transition($function) {
+  transition: #{$function};
+  -webkit-transition: #{$function};
+  -moz-transition: #{$function};
+}
+
+@mixin disabled {
+  cursor: default;
+  pointer-events: none;
+}

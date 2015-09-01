@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Circular', Helvetica, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -41,34 +41,32 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-@mixin disabled {
-  cursor: default;
-  pointer-events: none;
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+  "common",
+  "base",
+  "layout",
+  "syntax-highlighting",
+  "typography"
 ;
 
 .header {
 
   padding-top: 74px;
 
-  a {
-    font-weight: $font-bold;
-  }
-
   &__logo {
+
+    a {
+      font-weight: $font-bold;
+      @include transform('translateY(0)');
+    }
 
     span {
       font-weight: $font-bold;
@@ -113,20 +111,94 @@ $on-laptop:        800px;
   }
 }
 
-.list-posts {
-  margin-top: 100px;
+.content {
+  margin-top: 99px;
+  padding-bottom: 180px;
+  position: relative;
 
-  &__title:not(:first-child) {
-    margin-top: 44px;
+  &__body {
+
+    &--text {
+      font-size: $base-font-size * 1.375;
+      line-height: $base-line-height;
+    }
+  }
+
+  &__image {
+    margin-top: 40px;
+
+    img {
+      margin-bottom: 20px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__previous-next-project {
+    width: 100%;
+    padding: 0 1%;
+    position: fixed;
+    top: 50%;
+    margin-top: -24px;
+
+    a {
+      font-size: 32px;
+    }
+
+    &--previous {
+      float: left;
+    }
+
+    &--next {
+      float: right;
+    }
+
+    .empty {
+      opacity: 0.5;
+      @include disabled;
+    }
+  }
+}
+
+.list-posts {
+  margin-top: 109px;
+
+  &__title {
+    font-size: 2.25rem;
+
+    &:not(:first-child) {
+      margin-top: 44px;
+    }
+  }
+}
+
+.post {
+
+  &__title {
+    margin-bottom: 36px;
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      line-height: 1.178571;
+    }
+
+    p {
+      color: $grey-color;
+      font-style: italic;
+    }
   }
 }
 
 .footer {
-  padding: 74px 0 80px;
-
-  a,p {
-    font-weight: $font-bold;
-  }
+  height: 180px;
+  padding-top: 74px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 
   &__social-links {
     text-align: right;
