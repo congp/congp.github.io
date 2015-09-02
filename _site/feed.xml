@@ -6,8 +6,8 @@
 </description>
     <link>http://congphamdesign.com/</link>
     <atom:link href="http://congphamdesign.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Sep 2015 13:30:48 +0700</pubDate>
-    <lastBuildDate>Wed, 02 Sep 2015 13:30:48 +0700</lastBuildDate>
+    <pubDate>Wed, 02 Sep 2015 21:45:50 +0700</pubDate>
+    <lastBuildDate>Wed, 02 Sep 2015 21:45:50 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -20,7 +20,7 @@
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;small-12 medium-12 large-6 columns&quot;&gt;
-    &lt;p class=&quot;content__body--text&quot;&gt;
+    &lt;p class=&quot;content__body--text-post&quot;&gt;
       Slack introduced their emoji reaction back in July 2015 and I was fascinated by it. Thus, as a quick way to respond to an article, apart from like/heart and comment, user could use emoji as a way to represent their reactions. This could be a more creative way, which helps the user tell a more comprehensive story in less time.
     &lt;/p&gt;
   &lt;/div&gt;

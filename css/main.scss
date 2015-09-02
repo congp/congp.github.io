@@ -118,10 +118,13 @@ $on-laptop:        800px;
 
   &__body {
 
-    &--text {
-      margin: 36px 0 40px;
+    &--text, &--text-post {
       font-size: $base-font-size * 1.375;
       line-height: $base-line-height;
+    }
+
+    &--text-post {
+      margin: 36px 0 40px;
     }
   }
 
@@ -167,12 +170,13 @@ $on-laptop:        800px;
 }
 
 .list-posts {
-  margin-top: 109px;
+  margin-top: 119px;
+  text-align: center;
   counter-reset: postCounter;
 
   &__title {
     font-size: 2.25rem;
-    @include transition('all ease-out 0.75s');
+    @include transition('all ease-out 1s');
     @include invisible;
     @include transform('translateY(100px)');
     counter-increment: postCounter;
@@ -181,11 +185,14 @@ $on-laptop:        800px;
     &::before {
       content: "0"counter(postCounter);
       position: absolute;
-      top: 7px;
-      left: -28px;
+      top: -34px;
+      left: 50%;
+      margin-left: -10px;
       font-size: 1rem;
       font-weight: 500;
       color: $secondary-color;
+      line-height: 33px;
+      border-bottom: solid 2px;
     }
 
     &:not(:first-child) {
@@ -221,5 +228,88 @@ $on-laptop:        800px;
 
   &__social-links {
     text-align: right;
+  }
+}
+
+@include media-query(40em) {
+  .header {
+    padding-top: 44px;
+
+    &__logo {
+      p {
+        display: none;
+      }
+    }
+
+    &__nav {
+      margin-top: 20px;
+      text-align: left;
+
+      nav {
+
+        li {
+
+          padding: 0 40px 0 0;
+        }
+      }
+    }
+  }
+
+  .list-posts {
+    margin-top: 64px;
+    text-align: left;
+
+    &__title {
+      font-size: 1.375rem;
+
+      &::before {
+        top: -24px;
+        left: 0;
+        margin-left: 0;
+        font-size: 0.75rem;
+        line-height: 180%;
+      }
+    }
+  }
+
+  .content {
+    margin-top: 60px;
+    padding-bottom: 0;
+
+    &__body {
+
+      &--text, &--text-post {
+        font-size: 1rem;
+        line-height: 2;
+      }
+    }
+
+    &__previous-next-project {
+      position: relative;
+      top: 0;
+      margin-top: 30px;
+      padding: 0 15px;
+    }
+  }
+
+  .post {
+
+    &__title {
+
+      h1 {
+        font-size: 1.375rem;
+        line-height: $base-line-height;
+      }
+    }
+  }
+
+  .footer {
+    padding-top: 54px;
+    position: relative;
+
+    &__social-links {
+      text-align: left;
+      margin-top: 20px;
+    }
   }
 }

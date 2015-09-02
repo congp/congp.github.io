@@ -8,7 +8,7 @@ var AnimateUtils = (function($){
         var title = $(this)
         setTimeout(function() {
           AnimateUtils.showElements(title)
-        }, 200 * i);
+        }, 250 * i);
       });
     },
     showElements: function(e){
