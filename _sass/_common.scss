@@ -14,3 +14,18 @@
   cursor: default;
   pointer-events: none;
 }
+
+@mixin invisible {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@mixin visible {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.show {
+  @include visible;
+  @include transform('none !important');
+}

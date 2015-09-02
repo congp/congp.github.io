@@ -119,13 +119,17 @@ $on-laptop:        800px;
   &__body {
 
     &--text {
+      margin: 36px 0 40px;
       font-size: $base-font-size * 1.375;
       line-height: $base-line-height;
     }
   }
 
   &__image {
-    margin-top: 40px;
+    a {
+      display: block;
+      margin-bottom: 20px;
+    }
 
     img {
       margin-bottom: 20px;
@@ -164,9 +168,25 @@ $on-laptop:        800px;
 
 .list-posts {
   margin-top: 109px;
+  counter-reset: postCounter;
 
   &__title {
     font-size: 2.25rem;
+    @include transition('all ease-out 0.75s');
+    @include invisible;
+    @include transform('translateY(100px)');
+    counter-increment: postCounter;
+    position: relative;
+
+    &::before {
+      content: "0"counter(postCounter);
+      position: absolute;
+      top: 7px;
+      left: -28px;
+      font-size: 1rem;
+      font-weight: 500;
+      color: $secondary-color;
+    }
 
     &:not(:first-child) {
       margin-top: 44px;
@@ -177,7 +197,6 @@ $on-laptop:        800px;
 .post {
 
   &__title {
-    margin-bottom: 36px;
 
     h1 {
       font-size: 1.75rem;

@@ -22,7 +22,8 @@ body {
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
-  //@include transform('translateY(100px)');
+  @include transition('all ease 2s');
+  @include invisible;
 }
 
 

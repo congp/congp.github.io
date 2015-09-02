@@ -1,3 +1,10 @@
+.show {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  -webkit-transform: none !important;
+  -moz-transform: none !important; }
+
 /**
  * Reset some basic elements
  */
@@ -18,7 +25,12 @@ body {
   font-weight: 500;
   color: #403D58;
   background-color: #F8F8F8;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  transition: all ease 2s;
+  -webkit-transition: all ease 2s;
+  -moz-transition: all ease 2s;
+  opacity: 0;
+  visibility: hidden; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -527,14 +539,16 @@ pre {
   padding-bottom: 180px;
   position: relative; }
   .content__body--text {
+    margin: 36px 0 40px;
     font-size: 22px;
     line-height: 1.5; }
-  .content__image {
-    margin-top: 40px; }
-    .content__image img {
-      margin-bottom: 20px; }
-      .content__image img:last-child {
-        margin-bottom: 0; }
+  .content__image a {
+    display: block;
+    margin-bottom: 20px; }
+  .content__image img {
+    margin-bottom: 20px; }
+    .content__image img:last-child {
+      margin-bottom: 0; }
   .content__previous-next-project {
     width: 100%;
     padding: 0 1%;
@@ -553,21 +567,38 @@ pre {
       pointer-events: none; }
 
 .list-posts {
-  margin-top: 109px; }
+  margin-top: 109px;
+  counter-reset: postCounter; }
   .list-posts__title {
-    font-size: 2.25rem; }
+    font-size: 2.25rem;
+    transition: all ease-out 0.75s;
+    -webkit-transition: all ease-out 0.75s;
+    -moz-transition: all ease-out 0.75s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    counter-increment: postCounter;
+    position: relative; }
+    .list-posts__title::before {
+      content: "0" counter(postCounter);
+      position: absolute;
+      top: 7px;
+      left: -28px;
+      font-size: 1rem;
+      font-weight: 500;
+      color: #66D7D1; }
     .list-posts__title:not(:first-child) {
       margin-top: 44px; }
 
-.post__title {
-  margin-bottom: 36px; }
-  .post__title h1 {
-    font-size: 1.75rem;
-    font-weight: 700;
-    line-height: 1.178571; }
-  .post__title p {
-    color: #71707C;
-    font-style: italic; }
+.post__title h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.178571; }
+.post__title p {
+  color: #71707C;
+  font-style: italic; }
 
 .footer {
   height: 180px;
