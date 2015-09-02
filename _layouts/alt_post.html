@@ -2,37 +2,19 @@
 layout: default
 ---
 
-<div class="row post-info">
-    <div class="small-12 medium-2 medium-offset-1 columns">
-        <h1 class="font-book fs22 primary-color">{{ page.title }}</h1>
-        <p class="font-book fs18 secondary-color">{{ page.project_type }}</p>
+<div class="content post">
+  {% include post-title.html %}
+  <div class="row">
+    <div class="small-12 medium-12 large-6 columns content__body">
+      <p class="content__body--text-post">
+        {{ page.opening_content }}
+      </p>
     </div>
-    <div class="small-12 medium-8 large-6 columns left post-description">
-        <p class="font-book fs16 lh200 secondary-color">
-            {{ page.opening_content }}
-        </p>
+  </div>
+  <div class="row">
+    <div class="small-12 medium-12 large-12 columns content__image">
+      {{ content | remove: '<p>' | remove: '</p>' }}
     </div>
+  </div>
+  {% include pagination.html %}
 </div>
-<div class="row project-images">
-    <div class="medium-12 columns">
-        {{ content | remove: '<p>' | remove: '</p>' }}
-    </div>
-</div>
-{% if page.previous.url or page.next.url %}
-    <div class="previous-next-project">
-        {% if page.previous.url %}
-            <div class="previous">
-        {% else %}
-            <div class="previous empty">
-        {% endif %}
-            <a href="{{ page.previous.url }}" class="font-bold fs22 primary-color">&larr;</a>
-        </div>
-        {% if page.next.url %}
-            <div class="next">
-        {% else %}
-            <div class="next empty">
-        {% endif %}
-            <a href="{{ page.next.url }}" class="font-bold fs22 primary-color">&rarr;</a>
-        </div>
-    </div>
-{% endif %}

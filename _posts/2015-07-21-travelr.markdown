@@ -16,9 +16,9 @@ opening_content: "<span class='font-bold'>travelr</span> is the place that conne
 
 <img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-03.jpg">
 
-<div class="row" style="margin-top: 20px;">
-  <div class="small-12 medium-8 medium-push-3 large-6 large-push-3 columns left post-description">
-    <p class="font-book fs16 lh200 primary-color">
+<div class="row">
+  <div class="small-12 medium-12 large-6 columns">
+    <p class="content__body--text-post">
       Slack introduced their emoji reaction back in July 2015 and I was fascinated by it. Thus, as a quick way to respond to an article, apart from like/heart and comment, user could use emoji as a way to represent their reactions. This could be a more creative way, which helps the user tell a more comprehensive story in less time.
     </p>
   </div>

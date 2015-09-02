@@ -2,18 +2,11 @@
 layout: default
 ---
 
-{% include joke.html %}
-
 <!-- for loop goes here -->
-{% for post in site.posts %}
-    <article class="row post-link">
-    	<a href="{{ post.url | prepend: site.baseurl }}">
-    		<img class="feature-image" src="{{ site.baseurl }}assets/img/{{ post.feature_image }}"/>
-        </a>
-        <div class="medium-10 medium-offset-1 large-6 large-offset-1 columns post-title">
-            <a href="{{ post.url | prepend: site.baseurl }}">
-                <h1 class="font-book fs22 primary-color">{{ post.display_title }}</h1>
-            </a>
-        </div>
-    </article>
-{% endfor %}
+<div class="row list-posts">
+  <div class="small-12 medium-12 large-6 large-centered columns">
+    {% for post in site.posts %}
+      <h1 class="list-posts__title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+    {% endfor %}
+  </div>
+</div>
