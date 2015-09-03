@@ -487,19 +487,21 @@ pre {
     color: #099; }
 
 @font-face {
-  font-family: 'Circular';
+  font-family: Circular;
   font-weight: 500;
+  font-style: normal;
   src: url("../assets/fonts/lineto-circular-book.eot");
   src: url("../assets/fonts/lineto-circular-book.woff") format("woff"), url("../assets/fonts/lineto-circular-book.ttf") format("truetype"); }
 @font-face {
-  font-family: 'Circular';
+  font-family: Circular;
   font-weight: 500;
   font-style: italic;
   src: url("../assets/fonts/lineto-circular-bookItalic.eot");
   src: url("../assets/fonts/lineto-circular-bookItalic.woff") format("woff"), url("../assets/fonts/lineto-circular-bookItalic.ttf") format("truetype"); }
 @font-face {
-  font-family: 'Circular';
+  font-family: Circular;
   font-weight: 700;
+  font-style: normal;
   src: url("../assets/fonts/lineto-circular-bold.eot");
   src: url("../assets/fonts/lineto-circular-bold.woff") format("woff"), url("../assets/fonts/lineto-circular-bold.ttf") format("truetype"); }
 .header {

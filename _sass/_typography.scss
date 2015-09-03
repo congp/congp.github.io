@@ -1,24 +1,20 @@
-@font-face {
-  font-family: 'Circular';
-  font-weight: 500;
-  src: url('../assets/fonts/lineto-circular-book.eot');
-  src: url('../assets/fonts/lineto-circular-book.woff') format('woff'),
-       url('../assets/fonts/lineto-circular-book.ttf') format('truetype');
+@mixin font-face($font-name, $font-weight, $font-style, $font-src) {
+  font-family: #{$font-name};
+  font-weight: #{$font-weight};
+  font-style: #{$font-style};
+  src: url('../assets/fonts/#{$font-src}.eot');
+  src: url('../assets/fonts/#{$font-src}.woff') format('woff'),
+       url('../assets/fonts/#{$font-src}.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Circular';
-  font-weight: 500;
-  font-style: italic;
-  src: url('../assets/fonts/lineto-circular-bookItalic.eot');
-  src: url('../assets/fonts/lineto-circular-bookItalic.woff') format('woff'),
-       url('../assets/fonts/lineto-circular-bookItalic.ttf') format('truetype');
+  @include font-face('Circular', 500, 'normal', 'lineto-circular-book');
 }
 
 @font-face {
-  font-family: 'Circular';
-  font-weight: 700;
-  src: url('../assets/fonts/lineto-circular-bold.eot');
-  src: url('../assets/fonts/lineto-circular-bold.woff') format('woff'),
-       url('../assets/fonts/lineto-circular-bold.ttf') format('truetype');
+  @include font-face('Circular', 500, 'italic', 'lineto-circular-bookItalic');
+}
+
+@font-face {
+  @include font-face('Circular', 700, 'normal', 'lineto-circular-bold');
 }
