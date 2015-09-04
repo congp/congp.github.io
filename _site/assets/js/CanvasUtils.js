@@ -31,10 +31,10 @@ var CanvasUtils = (function($){
         }
         maxAttempts -= 1;
       }
-      console.log(playgrounds);
 		},
 		draw: function(){
 			var canvas = document.getElementById('canvas');
+			var img = document.getElementById('source');
 
         if(canvas.getContext) {
           var ctx = canvas.getContext('2d');
@@ -42,17 +42,14 @@ var CanvasUtils = (function($){
           ctx.canvas.height = playgroundHeight;
 
           for(var i=0; i < playgrounds.length; i++) {
-            ctx.beginPath();
-            ctx.arc(playgrounds[i].x,playgrounds[i].y,playgrounds[i].r,0,2*Math.PI);
-            ctx.closePath();
-            ctx.fill();
+            ctx.drawImage(img, playgrounds[i].x, playgrounds[i].y);
           }
         }
 		},
 		init: function(){
 			playgroundWidth = window.innerWidth;
 			playgroundHeight = window.innerHeight;
-			CanvasUtils.buildingPlayground(1000);
+			CanvasUtils.buildingPlayground(200);
 			CanvasUtils.draw();
 		}
 	}
