@@ -504,6 +504,13 @@ pre {
   font-style: normal;
   src: url("../assets/fonts/lineto-circular-bold.eot");
   src: url("../assets/fonts/lineto-circular-bold.woff") format("woff"), url("../assets/fonts/lineto-circular-bold.ttf") format("truetype"); }
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1; }
+
 .header {
   padding-top: 74px; }
   .header__logo a {
