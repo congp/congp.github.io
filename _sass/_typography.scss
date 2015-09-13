@@ -3,18 +3,22 @@
   font-weight: #{$font-weight};
   font-style: #{$font-style};
   src: url('../assets/fonts/#{$font-src}.eot');
-  src: url('../assets/fonts/#{$font-src}.woff') format('woff'),
-       url('../assets/fonts/#{$font-src}.ttf') format('truetype');
+  src: url('../assets/fonts/#{$font-src}.woff2') format('woff2'),
+  		 url('../assets/fonts/#{$font-src}.woff') format('woff'),
+       url('../assets/fonts/#{$font-src}.ttf') format('truetype'),
+       url('../assets/fonts/#{$font-src}.svg#Edmondsans') format('svg');
+}
+
+$font-name: 'Edmondsans';
+
+@font-face {
+  @include font-face($font-name, 300, 'normal', 'edmondsans-regular-webfont');
 }
 
 @font-face {
-  @include font-face('Circular', 500, 'normal', 'lineto-circular-book');
+  @include font-face($font-name, 500, 'normal', 'edmondsans-medium-webfont');
 }
 
 @font-face {
-  @include font-face('Circular', 500, 'italic', 'lineto-circular-bookItalic');
-}
-
-@font-face {
-  @include font-face('Circular', 700, 'normal', 'lineto-circular-bold');
+  @include font-face($font-name, 700, 'normal', 'edmondsans-bold-webfont');
 }

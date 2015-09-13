@@ -19,10 +19,10 @@ dl, dd, ol, ul, figure {
  */
 body {
   height: 100%;
-  font-family: "Circular", Helvetica, sans-serif;
+  font-family: "Edmondsans", Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 300;
   color: #403D58;
   background-color: #F8F8F8;
   -webkit-text-size-adjust: 100%;
@@ -71,7 +71,7 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 500; }
+  font-weight: 300; }
 
 /**
  * Links
@@ -487,23 +487,23 @@ pre {
     color: #099; }
 
 @font-face {
-  font-family: Circular;
+  font-family: Edmondsans;
+  font-weight: 300;
+  font-style: normal;
+  src: url("../assets/fonts/edmondsans-regular-webfont.eot");
+  src: url("../assets/fonts/edmondsans-regular-webfont.woff2") format("woff2"), url("../assets/fonts/edmondsans-regular-webfont.woff") format("woff"), url("../assets/fonts/edmondsans-regular-webfont.ttf") format("truetype"), url("../assets/fonts/edmondsans-regular-webfont.svg#Edmondsans") format("svg"); }
+@font-face {
+  font-family: Edmondsans;
   font-weight: 500;
   font-style: normal;
-  src: url("../assets/fonts/lineto-circular-book.eot");
-  src: url("../assets/fonts/lineto-circular-book.woff") format("woff"), url("../assets/fonts/lineto-circular-book.ttf") format("truetype"); }
+  src: url("../assets/fonts/edmondsans-medium-webfont.eot");
+  src: url("../assets/fonts/edmondsans-medium-webfont.woff2") format("woff2"), url("../assets/fonts/edmondsans-medium-webfont.woff") format("woff"), url("../assets/fonts/edmondsans-medium-webfont.ttf") format("truetype"), url("../assets/fonts/edmondsans-medium-webfont.svg#Edmondsans") format("svg"); }
 @font-face {
-  font-family: Circular;
-  font-weight: 500;
-  font-style: italic;
-  src: url("../assets/fonts/lineto-circular-bookItalic.eot");
-  src: url("../assets/fonts/lineto-circular-bookItalic.woff") format("woff"), url("../assets/fonts/lineto-circular-bookItalic.ttf") format("truetype"); }
-@font-face {
-  font-family: Circular;
+  font-family: Edmondsans;
   font-weight: 700;
   font-style: normal;
-  src: url("../assets/fonts/lineto-circular-bold.eot");
-  src: url("../assets/fonts/lineto-circular-bold.woff") format("woff"), url("../assets/fonts/lineto-circular-bold.ttf") format("truetype"); }
+  src: url("../assets/fonts/edmondsans-bold-webfont.eot");
+  src: url("../assets/fonts/edmondsans-bold-webfont.woff2") format("woff2"), url("../assets/fonts/edmondsans-bold-webfont.woff") format("woff"), url("../assets/fonts/edmondsans-bold-webfont.ttf") format("truetype"), url("../assets/fonts/edmondsans-bold-webfont.svg#Edmondsans") format("svg"); }
 .header {
   padding-top: 74px; }
   .header__logo a {
@@ -570,11 +570,14 @@ pre {
       pointer-events: none; }
 
 .list-posts {
-  margin-top: 119px;
-  text-align: center;
-  counter-reset: postCounter; }
+  padding-top: 300px;
+  counter-reset: postCounter;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 180px; }
   .list-posts__title {
-    font-size: 2.25rem;
+    font-size: 1.375rem;
+    font-weight: 300;
     transition: all ease-out 1s;
     -webkit-transition: all ease-out 1s;
     -moz-transition: all ease-out 1s;
@@ -585,19 +588,50 @@ pre {
     -moz-transform: translateY(100px);
     counter-increment: postCounter;
     position: relative; }
-    .list-posts__title::before {
-      content: "0" counter(postCounter);
-      position: absolute;
-      top: -34px;
-      left: 50%;
-      margin-left: -10px;
-      font-size: 1rem;
-      font-weight: 500;
-      color: #66D7D1;
-      line-height: 33px;
-      border-bottom: solid 2px; }
     .list-posts__title:not(:first-child) {
-      margin-top: 44px; }
+      margin-top: 24px; }
+
+.main-headline {
+  position: relative;
+  padding-top: 60px; }
+  .main-headline__bigger-text {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2; }
+    .main-headline__bigger-text span {
+      color: #66D7D1; }
+  .main-headline__big-text {
+    font-size: 1.375rem;
+    font-weight: 300;
+    line-height: 1.75; }
+  .main-headline__gradient-circle {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-top: -150px;
+    margin-right: -260px;
+    z-index: -1;
+    transition: all ease 1.25s;
+    -webkit-transition: all ease 1.25s;
+    -moz-transition: all ease 1.25s;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    opacity: 0;
+    visibility: hidden; }
+  .main-headline .t1 {
+    padding-left: 50px; }
+  .main-headline .t2 {
+    padding-left: 100px; }
+  .main-headline .t3 {
+    margin-left: -30px; }
+  .main-headline .t4 {
+    padding-left: 120px; }
+  .main-headline .t5 {
+    padding-left: 60px; }
+  .main-headline .t6 {
+    padding-left: 30px; }
 
 .post__title h1 {
   font-size: 1.75rem;
@@ -629,6 +663,7 @@ pre {
         padding: 0 40px 0 0; }
 
   .list-posts {
+    position: relative;
     margin-top: 64px;
     text-align: left; }
     .list-posts__title {
