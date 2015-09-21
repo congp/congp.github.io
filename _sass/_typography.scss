@@ -2,23 +2,23 @@
   font-family: #{$font-name};
   font-weight: #{$font-weight};
   font-style: #{$font-style};
-  src: url('../assets/fonts/#{$font-src}.eot');
-  src: url('../assets/fonts/#{$font-src}.woff2') format('woff2'),
-  		 url('../assets/fonts/#{$font-src}.woff') format('woff'),
-       url('../assets/fonts/#{$font-src}.ttf') format('truetype'),
-       url('../assets/fonts/#{$font-src}.svg#Edmondsans') format('svg');
+  src: url('../assets/fonts/#{$font-src}.ttf') format('truetype');
 }
 
-$font-name: 'Edmondsans';
+$font-name: 'MaisonNeue';
 
 @font-face {
-  @include font-face($font-name, 300, 'normal', 'edmondsans-regular-webfont');
+  @include font-face($font-name, 300, 'normal', 'maisonneuebook');
 }
 
 @font-face {
-  @include font-face($font-name, 500, 'normal', 'edmondsans-medium-webfont');
+  @include font-face($font-name, 300, 'italic', 'maisonneuebookitalic');
 }
 
 @font-face {
-  @include font-face($font-name, 700, 'normal', 'edmondsans-bold-webfont');
+  @include font-face($font-name, 700, 'normal', 'maisonneuebold');
+}
+
+@font-face {
+  @include font-face($font-name, 700, 'italic', 'maisonneuebolditalic');
 }

@@ -3,16 +3,17 @@ layout: default
 ---
 
 <div class="content post">
-  {% include post-title.html %}
   <div class="row">
-    <div class="small-12 medium-12 large-6 columns content__body">
-        <p class="content__body--text-post">
-            {{ content | remove: '<p>' | remove: '</p>' }}
-        </p>
+    <div class="small-12 medium-6 large-6 columns post__title">
+      <h3>{{page.title}}</h3>
+      <h6>{{page.project_type}}</h6>
+      <p>
+        {{ content | remove: '<p>' | remove: '</p>' }}
+      </p>
     </div>
   </div>
   <div class="row">
-    <div class="small-12 medium-12 large-12 columns content__image">
+    <div class="small-12 medium-12 large-12 columns post__content">
       {% for prj_img in page.project_images %}
         <img src="{{ site.baseurl }}/assets/img/{{prj_img}}">
       {% endfor %}
@@ -20,3 +21,4 @@ layout: default
   </div>
   {% include pagination.html %}
 </div>
+

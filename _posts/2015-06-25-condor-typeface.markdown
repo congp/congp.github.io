@@ -4,12 +4,14 @@ title:  "Condor Typeface"
 display_title: "Condor Typeface&mdash;a typeface that celebrates the love of a language."
 categories: design typeface
 project_type: 'Typeface Design'
-feature_image: ['condor-typeface/condor-feature-image.png']
+display_id: condor
+feature_image: ['condor-typeface/condor-feature-image.jpg']
 project_images: ['condor-typeface/condor-03.png',
 				 'condor-typeface/condor-04.png',
 				 'condor-typeface/condor-05.png',
 				 'condor-typeface/condor-06.png',
 				]
+excerpt: "Condor Typeface is created with one important goal, to celebrate the love for Vietnamese language. Condor is a side project I have quickly crafted after my trip away for a weekend, where I've encountered numerous vinage on abandoned and old buildings."
 ---
 
 Condor Typeface is created with one important goal, to celebrate the love for Vietnamese language. Condor is a side project I have quickly crafted after my trip away for a weekend, where I've encountered numerous vinage on abandoned and old buildings.

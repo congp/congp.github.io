@@ -16,13 +16,46 @@ var AnimateUtils = (function($){
         }, 250 * i);
       });
     },
+    myNameHasSwag: function() {
+      setInterval(function(){
+        var firstName = 'CONG',
+            lastName = 'PHAM',
+            splittedFirstName = firstName.split(''),
+            splittedLastName = lastName.split(''),
+            randomFirstName = Math.floor(Math.random() * (3 - 0 + 1)) + 0,
+            randomLastName = Math.floor(Math.random() * (3 - 0 + 1)) + 0;
+
+        $('#first-name').text(splittedFirstName[randomFirstName]);
+        $('#last-name').text(splittedLastName[randomLastName]);
+      },1000);
+    },
+    showProjectFeatureImage: function(){
+      var singlePost = $('.list-posts__post');
+      var projectFeatureImage = $('.project-image');
+      var theImage = "";
+      singlePost.hover(
+        function(){
+          imageData = $(this).data('image');
+          theImage = $('#' + imageData);
+          AnimateUtils.showElements(theImage);
+          return theImage;
+        },
+        function(){
+          AnimateUtils.hideElements(theImage);
+        }
+      );
+    },
     showElements: function(e){
       e.addClass('show');
+    },
+    hideElements: function(e){
+      e.removeClass('show');
     },
     init: function(){
       AnimateUtils.bodyFadeIn();
       AnimateUtils.postTitleLoading();
       AnimateUtils.sunrise();
+      AnimateUtils.showProjectFeatureImage();
     }
   }
 })(jQuery);

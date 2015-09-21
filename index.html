@@ -2,20 +2,23 @@
 layout: default
 ---
 
-<!-- for loop goes here -->
-<div class="row">
-  <div class="small-12 medium-12 large-6 columns list-posts">
-    {% for post in site.posts %}
-      <h1 class="list-posts__title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-    {% endfor %}
+<div class="content introductory-banner">
+  <div class="row">
+    <div class="small-12 medium-8 large-7 columns introductory-banner__main-text">
+      <h2>👋</h2>
+      <h3>
+        Cong is a multidisciplinary designer based in Saigon, Vietnam — hi!<br/>
+        Currently full time designer and front-end dev at <a href="https://misfit.com" _target="blank">Misfit Wearables</a>.<br/><br/>
+        Let’s not talk about projects. Let’s have a chat and get to know each other instead. That’s a better way to socialize.
+        <br/><br/>
+        Trust me, I’m a designer.
+      </h3>
+    </div>
   </div>
-  <div class="small-12 medium-12 large-6 columns main-headline">
-  	<h1 class="t1 main-headline__bigger-text">dreamer&nbsp;<span>_____</span></h1>
-  	<h1 class="t2 main-headline__bigger-text">pixel pusher&nbsp;<span>&amp;</span></h1>
-  	<h1 class="t3 main-headline__bigger-text">maker of things&nbsp;<span>.</span></h1>
-  	<h2 class="t4 main-headline__big-text">designer,</h2>
-  	<h2 class="t5 main-headline__big-text">front-end developer,</h2>
-  	<h2 class="t6 main-headline__big-text">saigon &mdash; vietnam</h2>
-  	<img class="main-headline__gradient-circle" src="assets/img/home/gradient-circle.png"/>
+  <div class="row">
+    <div class="small-12 medium-12 large-12 columns introductory-banner__buttons">
+      <a href="mailto:congphamdesign.com" class="introductory-banner__buttons--primary-button">Let's talk!</a>
+      <a href="/projects" class="introductory-banner__buttons--secondary-button">See my works</a>
+    </div>
   </div>
 </div>
