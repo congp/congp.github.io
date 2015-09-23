@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>
+		
+			Misfit Internal Tools
+		
+	</title>
+	<meta name="description" content="travelr is the place that connects people that love to travel. It's where they share wild ideas and fascinating stories.">
+
+		<!-- STYLESHEETS -->
+    <link rel="stylesheet" href="/assets/css/foundation.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
+
+    <script src="/assets/js/vendor/jquery.js"></script>
+    <script src="/assets/js/vendor/modernizr.js"></script>
+
+	<link rel="canonical" href="http://congphamdesign.com/ux-ui-design/2015/09/22/misfit-internal-tools.html">
+	<link rel="alternate" type="application/rss+xml" title="Cong Pham" href="http://congphamdesign.com/feed.xml" />
+</head>
+
+
+  <body>
+
+    <div id="container">
+
+      <header class="header">
+  <div class="row header__container">
+    <div class="small-4 medium-4 large-4 columns header__container--nav">
+      <nav>
+        <ul>
+          <li><a id="projects"href="/projects">Projects</a></li>
+          <li><a id="about" href="/about">About</a></li>
+          <li><a href="http://justamateurhuman.com">Journal</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="small-4 medium-4 large-4 columns header__container--logo">
+      <a href="/"><p><span id="first-name">C</span>&nbsp;&mdash;&nbsp;<span id="last-name">P</span></p></a>
+    </div>
+    <div class="small-4 medium-4 large-4 columns header__container--email">
+      <a href="mailto:me@congphamdesign.com">me@congphamdesign.com</a>
+    </div>
+  </div>
+</header>
+
+      <div class="content post">
+  <div class="row">
+    <div class="small-12 medium-6 large-6 columns post__title">
+      <h3>Misfit Internal Tools</h3>
+      <h6>UX/UI Design and Front-end Development</h6>
+      <p>
+        I joined Misfit Wearables in early 2015 with one simple goal, to improve the design scene there. Before I was there, all the internal apps and tools were simply just Bootstrap UI elements put together or quickly assembled using Storyboard. It wasn't a pleasant view at all, especially for a designer like me.<br/><br/> That was why the first couple of months was hard work. It's not because I have a lot of apps to redesign, to make them look nice and flashy but rather to solve the BIGGEST problem in term of design at Misfit, <b>consistency</b>. <br/><br/> This problem isn't just Misfit's alone but tend to happen to a lot of other companies as they grew over time. It's what Ben Barry of Facebook was trying to solve and he has accomplished such a remarkable job in doing it.<br/><br/> When I joined, Misfit had a bunch of mini projects that eventually turned into much larger scale products such as its Research & Sleep (R&S) platform and Inventory Warehouse Management (IWM) system that I will be presenting in this post. Though might not be visible to the public but they're there and are being used by a number of people both company's employees and partners.<br/><br/> Starting out, R&S and IWM was just an admin dashboard with super confusing UI and terrible UX. They came straight out of the default Django theme and it was ... super shitty. Navigating was difficult let alone using it. Looking at it would make me want to shit myself and thank God I never did. I told myself to keep it together, give it a deep breath and get to work.<br/><br/> <em>Note: I can't really show any real screenshot of the systems here but will try to explain it at best.</em><br/><br/> So the clear goals were to improve its UX and UI, restructure the product in a way that it makes more sense and unify the design with other apps and products. I will break it down into two sections, but will talk mainly about the R&S because the IWM system is still in its first phrases of development.<br/><br/> Before starting to pull out paper and pen to start jotting down UI ideas, I started by writing a super long design document that focused on two main things, the expected outcomes of my designs and the structures need to achieve the stated outcomes. Basically it's the list of problems that need to be solved, reasoning why that problem matters and how do I think that if the problem is fixed, the value added to the product will increase. <br/><br/> The biggest challenge is to design a system that can handle a great deal of data and would be able to scale as new features are going to be added along the way. The design needs to be futureproof, to be able to consider all edge cases carefully. The process needs to be filled with iterations after iterations as the product moves forward. Also as someone who design then deliver the front-end, the amount of polishing needs to be substantial.<br/><br/> So after a series of discussions, countless numbers of wireframe pages and a few failed ideas I've finally came up with the new flow. Basically, before, to add a device the user would have to add a group because the device can only exist within a group and not on its own. The latter part makes sense but to not being able to add device without first created a group is ludicrous. Thus, the new app treats device and group as different entities that would exist along side each other. That being said, the users are allow to add new device without adding a group accompanying it; the device doesn't need to have an owner. This simple restructuring would then go on affecting how the design look and how different elements are what they are today. That was one of many changes introduced in the new system. I am not allow to talk in depth, but just to give you an overall of the kind of process I've gone through with the design decisions I've taken. 
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 medium-12 large-12 columns post__content">
+      <div class="misfit-internal-tool__nav">
+	<img src="/assets/img/misfit-internal-system/nav.png" />
+</div>
+
+<div class="row">
+  <div class="small-12 medium-12 large-6 columns">
+    <p class="content__body--text-post">
+      The revamped navigation bar was a great improvement because it's clear and always visible. Together with its the toolbar underneath that would show information related to the specific views and quick action buttons and search field, the combo has tremendously improved the UX. According to the data and feedback from users, this change to the navigation made the app easier to navigate and features more accessible.<br /><br />
+      Next thing that was a big change from the old system are these 'toasts' or 'flash cards' that would replace the old alert box existed in the old system. These flashcards are less intrusive and appear more professional and come with three different level, friendly (green), douchy (yellow) and bitchy (red). Yep, we actually called them like that. The design discussion would be: 'Show the app show the user how bitchy she could be?'
+    
+  </div>
+  <div class="small-12 medium-12 large-6 columns">
+  	<img src="/assets/img/misfit-internal-system/toast.png" />
+  </div>
+</div>
+<img src="/assets/img/misfit-internal-system/list.png" />
+<div class="row">
+  <div class="small-12 medium-12 large-6 columns">
+    <p class="content__body--text-post">
+      Of course, a system to collect and analyse data would incorporate a bunch of lists. And the old list was archaic and ancient. It was ugly, it was hard to see, it was bad and last but not least it was <code>table</code> and I fucking hated it. So to make the lists consistent with other elements, I gave it a new look. Cleaner, larger means improve in legibility and with only important and relevant fields.
+      <br /><br />
+      Lastly, one important improvement I've made to the app was prevent the use of modal. Of course, the most ubiquitous method of adding a piece of data into a list would be a modal popup, together with form inputs and a submit button. That was shitty and too intrusive. Plus it would introduce another different piece of UI element that the users need to learn to navigate. That's why I set out to change that. I've made the Add New view and the regular view similar, it's basically the same view, just with less information and the users will fill up by his/herself. The advantages are that the users are familiar with the layout, they know and recognize it, and subconsciously they are trained and used to the system. Another advantage is the fact that you don't have to make another UI element which would be ugly and require more development time. So win-win for all! You can check out the views below.
+    
+  </div>
+</div>
+
+<img src="/assets/img/misfit-internal-system/normal-view.png" />
+<img src="/assets/img/misfit-internal-system/add-new-view.png" />
+
+<div class="row">
+  <div class="small-12 medium-12 large-6 columns">
+    <p class="content__body--text-post">
+      Because of the confidentiality of the projects, I couldn't show more, but hopefully this gave you a glimpse in the design process and best convey my design thinking and problem solving. This project was the foundation for changes in the Misfit internal tools design scene. From the elements designed here, it went on and being adapted to other apps, making everything <b>consistent</b>.
+    
+  </div>
+</div>
+
+    </div>
+  </div>
+  
+  <div class="post__previous-next-project clearfix">
+    
+      <div class="post__previous-next-project--previous">
+    
+      <a href="/ux-ui-design/2015/07/21/travelr.html" class="font-bold fs22 primary-color">&larr;</a>
+    </div>
+    
+      <div class="post__previous-next-project--next empty">
+    
+      <a href="" class="font-bold fs22 primary-color">&rarr;</a>
+    </div>
+  </div>
+
+
+</div>
+
+
+      <footer class="row footer">
+	<div class="footer__container">
+		<div class="small-12 medium-6 large-6 columns footer__container--copyright">
+			<p>&copy;&nbsp;&mdash;&nbsp;2015</p>
+		</div>
+		<div class="small-12 medium-6 large-6 columns footer__container--funny-text">
+			<p>Made with 🍠 from Saigon, 🇻🇳.</p>
+		</div>
+	</div>
+</footer>
+
+<script src="/assets/js/foundation.min.js"></script>
+<script src="/assets/js/AnimateUtils.js"></script>
+<script src="/assets/js/app.js"></script>
+<script>
+    $(document).foundation();
+</script>
+
+
+    </div>
+
+  </body>
+
+</html>

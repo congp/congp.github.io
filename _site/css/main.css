@@ -95,6 +95,9 @@ a {
   a:hover:after {
     background-color: black; }
 
+em {
+  font-style: italic; }
+
 /**
  * Blockquotes
  */

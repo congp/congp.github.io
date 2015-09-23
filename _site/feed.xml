@@ -6,9 +6,57 @@
 </description>
     <link>http://congphamdesign.com/</link>
     <atom:link href="http://congphamdesign.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Sep 2015 18:02:46 +0700</pubDate>
-    <lastBuildDate>Sun, 20 Sep 2015 18:02:46 +0700</lastBuildDate>
+    <pubDate>Wed, 23 Sep 2015 21:38:14 +0700</pubDate>
+    <lastBuildDate>Wed, 23 Sep 2015 21:38:14 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Misfit Internal Tools</title>
+        <description>&lt;div class=&quot;misfit-internal-tool__nav&quot;&gt;
+	&lt;img src=&quot;/assets/img/misfit-internal-system/nav.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-12 medium-12 large-6 columns&quot;&gt;
+    &lt;p class=&quot;content__body--text-post&quot;&gt;
+      The revamped navigation bar was a great improvement because it's clear and always visible. Together with its the toolbar underneath that would show information related to the specific views and quick action buttons and search field, the combo has tremendously improved the UX. According to the data and feedback from users, this change to the navigation made the app easier to navigate and features more accessible.&lt;br /&gt;&lt;br /&gt;
+      Next thing that was a big change from the old system are these 'toasts' or 'flash cards' that would replace the old alert box existed in the old system. These flashcards are less intrusive and appear more professional and come with three different level, friendly (green), douchy (yellow) and bitchy (red). Yep, we actually called them like that. The design discussion would be: 'Show the app show the user how bitchy she could be?'
+    &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;small-12 medium-12 large-6 columns&quot;&gt;
+  	&lt;img src=&quot;/assets/img/misfit-internal-system/toast.png&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/misfit-internal-system/list.png&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-12 medium-12 large-6 columns&quot;&gt;
+    &lt;p class=&quot;content__body--text-post&quot;&gt;
+      Of course, a system to collect and analyse data would incorporate a bunch of lists. And the old list was archaic and ancient. It was ugly, it was hard to see, it was bad and last but not least it was &lt;code&gt;table&lt;/code&gt; and I fucking hated it. So to make the lists consistent with other elements, I gave it a new look. Cleaner, larger means improve in legibility and with only important and relevant fields.
+      &lt;br /&gt;&lt;br /&gt;
+      Lastly, one important improvement I've made to the app was prevent the use of modal. Of course, the most ubiquitous method of adding a piece of data into a list would be a modal popup, together with form inputs and a submit button. That was shitty and too intrusive. Plus it would introduce another different piece of UI element that the users need to learn to navigate. That's why I set out to change that. I've made the Add New view and the regular view similar, it's basically the same view, just with less information and the users will fill up by his/herself. The advantages are that the users are familiar with the layout, they know and recognize it, and subconsciously they are trained and used to the system. Another advantage is the fact that you don't have to make another UI element which would be ugly and require more development time. So win-win for all! You can check out the views below.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/misfit-internal-system/normal-view.png&quot; /&gt;
+&lt;img src=&quot;/assets/img/misfit-internal-system/add-new-view.png&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-12 medium-12 large-6 columns&quot;&gt;
+    &lt;p class=&quot;content__body--text-post&quot;&gt;
+      Because of the confidentiality of the projects, I couldn't show more, but hopefully this gave you a glimpse in the design process and best convey my design thinking and problem solving. This project was the foundation for changes in the Misfit internal tools design scene. From the elements designed here, it went on and being adapted to other apps, making everything &lt;b&gt;consistent&lt;/b&gt;.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 22 Sep 2015 00:00:00 +0700</pubDate>
+        <link>http://congphamdesign.com/ux-ui-design/2015/09/22/misfit-internal-tools.html</link>
+        <guid isPermaLink="true">http://congphamdesign.com/ux-ui-design/2015/09/22/misfit-internal-tools.html</guid>
+        
+        
+        <category>ux-ui-design</category>
+        
+      </item>
     
       <item>
         <title>travelr App</title>
