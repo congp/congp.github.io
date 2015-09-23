@@ -10,13 +10,17 @@ excerpt: "travelr is the place that connects people that love to travel. It's wh
 opening_content: "<span class='font-bold'>travelr</span> is the place that connects people that love to travel. It's where they share wild ideas and fascinating stories. The app was born in the time when the Internet is full of low quality information and its only goal is to provide its users a better and more righteous information."
 ---
 
-<img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-01.jpg">
+<div>
+	<img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-01.jpg">
+</div>
 
+<div>
+	<img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-02.jpg">
+</div>
 
-<img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-02.jpg">
-
-
-<img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-03.jpg">
+<div>
+	<img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-03.jpg">
+</div>
 
 <div class="row">
   <div class="small-12 medium-12 large-6 columns">
@@ -26,5 +30,6 @@ opening_content: "<span class='font-bold'>travelr</span> is the place that conne
   </div>
 </div>
 
-
-<img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-04.png">
+<div>
+	<img src="{{ site.baseurl }}/assets/img/travelr/travelr-display-image-04.png">
+</div>

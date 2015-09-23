@@ -36,7 +36,9 @@ So after a series of discussions, countless numbers of wireframe pages and a few
   	<img src="{{ site.baseurl }}/assets/img/misfit-internal-system/toast.png">
   </div>
 </div>
-<img src="{{ site.baseurl }}/assets/img/misfit-internal-system/list.png">
+<div>
+	<img src="{{ site.baseurl }}/assets/img/misfit-internal-system/list.png">
+</div>
 <div class="row">
   <div class="small-12 medium-12 large-6 columns">
     <p class="content__body--text-post">
@@ -47,8 +49,10 @@ So after a series of discussions, countless numbers of wireframe pages and a few
   </div>
 </div>
 
-<img src="{{ site.baseurl }}/assets/img/misfit-internal-system/normal-view.png">
-<img src="{{ site.baseurl }}/assets/img/misfit-internal-system/add-new-view.png">
+<div>
+	<img src="{{ site.baseurl }}/assets/img/misfit-internal-system/normal-view.png">
+	<img src="{{ site.baseurl }}/assets/img/misfit-internal-system/add-new-view.png">
+</div>
 
 <div class="row">
   <div class="small-12 medium-12 large-6 columns">
