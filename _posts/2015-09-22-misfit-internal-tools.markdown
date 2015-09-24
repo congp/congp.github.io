@@ -5,7 +5,7 @@ categories: ux-ui-design
 project_type: UX/UI Design and Front-end Development
 display_id: misfit-internal-tools
 feature_image: ['misfit-internal-system/feature-image.jpg']
-excerpt: "travelr is the place that connects people that love to travel. It's where they share wild ideas and fascinating stories."
+excerpt: "I joined Misfit Wearables in early 2015 with one simple goal, to improve the design scene there. Before I was there, all the internal apps and tools were simply just..."
 opening_content: "I joined Misfit Wearables in early 2015 with one simple goal, to improve the design scene there. Before I was there, all the internal apps and tools were simply just Bootstrap UI elements put together or quickly assembled using Storyboard. It wasn't a pleasant view at all, especially for a designer like me.<br/><br/>
 That was why the first couple of months was hard work. It's not because I have a lot of apps to redesign, to make them look nice and flashy but rather to solve the BIGGEST problem in term of design at Misfit, <b>consistency</b>.
 <br/><br/>

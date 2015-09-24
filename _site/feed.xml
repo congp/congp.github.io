@@ -6,9 +6,109 @@
 </description>
     <link>http://congphamdesign.com/</link>
     <atom:link href="http://congphamdesign.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Sep 2015 21:51:30 +0700</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2015 21:51:30 +0700</lastBuildDate>
+    <pubDate>Thu, 24 Sep 2015 17:10:27 +0700</pubDate>
+    <lastBuildDate>Thu, 24 Sep 2015 17:10:27 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Personal Portfolio</title>
+        <description>&lt;div class=&quot;misfit-internal-tool__nav&quot;&gt;
+	&lt;img src=&quot;/assets/img/personal-portfolio/personal-portfolio-version-1.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-12 medium-12 large-6 columns&quot;&gt;
+    &lt;p class=&quot;content__body--text-post&quot;&gt;
+      I'll admit it. I was trying to be clever by going against all those ubiquitous portfolio sites with a fucking big-ass headline saying 'John Doe, designer based in Wonderland at your service!'. Basically a bunch of boring, bullshit headlines with big stock images behind them. Meh, thinking of it is making me sick already 😖. After my humble opening, medium-sized text is a bunch of jokes, going in a loop like a carousel. Some one emailed me saying that it was neath and a good idea after I test ran this design for a month back in April.&lt;br /&gt;&lt;br /&gt;
+      But then I felt like it's too boring. It's not enough so I set out to do more. That's when this came out...
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&lt;img src=&quot;/assets/img/personal-portfolio/personal-portfolio-version-2.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-12 medium-12 large-6 columns&quot;&gt;
+    &lt;p class=&quot;content__body--text-post&quot;&gt;
+      Minimal and filled with CSS animations giving it a good first time impression. But after a round of feedbacks from peers and my girlfriend. This style has to either go or be improved upon because it's too plain and not even special. Not showing my skill and the line of work I do. (Lesson learned: always listen to your girlfriend/fiance/wife. Haha. No seriously.)
+      &lt;br /&gt;&lt;br /&gt;
+      Then once again, think, think, think, do, do, do. And voila. Look at this.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+	&lt;img src=&quot;/assets/img/personal-portfolio/personal-portfolio-version-3.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-12 medium-12 large-6 columns&quot;&gt;
+    &lt;p class=&quot;content__body--text-post&quot;&gt;
+      I moved from my favourite typeface of the year, Circular to Edmondsans because I was in love with the letter 'a' and 'g' (both lowercase). I added a sun, because I want to haha there was really no reasoning behind that. But basically, I wanted my site to look a little artistic, like my own little playground for creativity. It looks cool and hip, but is it practical? No. Maybe it's in trend now with the shifted text and up, down, right, left text setting direction but to let it stand the test of time I'd say it wouldn't last a year. And once again, my girlfriend said it's terrible. So here to go again. 
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;img src=&quot;/assets/img/personal-portfolio/personal-portfolio-version-4.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-12 medium-12 large-6 columns&quot;&gt;
+    &lt;p class=&quot;content__body--text-post&quot;&gt;
+      Boom, an updated version of the previous one. With the big and gigantic fucking sun moved to the left. Added some gradient picture effect I was interested in and was testing out. Some stupid fucking lines and boxes. Then some copies. Put everything in a single page layout from top to bottom (which is so 2010, by the way). Mixed it up, cooked for 30 minutes. And 'ting!', this shitty shit. I was so disappointed with the result. I went straigth to making another one.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;img src=&quot;/assets/img/personal-portfolio/personal-portfolio-version-5.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-12 medium-12 large-6 columns&quot;&gt;
+    &lt;p class=&quot;content__body--text-post&quot;&gt;
+      I know, this is very different from the other ones. Why the sudden shift? I don't know. I wanted to explore some other options and style. But then this looked like a product showcase site for a startup. So no.
+      &lt;br /&gt;&lt;br /&gt;
+      Again, back to the drawing board.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;img src=&quot;/assets/img/personal-portfolio/personal-portfolio-version-6.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-12 medium-12 large-6 columns&quot;&gt;
+    &lt;p class=&quot;content__body--text-post&quot;&gt;
+      One last one. The one you're seeing right now. Yes, it has a minimal home page with just a headline. But I've carefully selected a new typeface. Carefully developed a grid and baseline system that works great for show casing purpose. I've removed all the unnecessary things. The site is fast, largely text based. And most importantly, it fits my personality. Someone might say it's too minimal and not creative. But it's the system developed and the content it's serving that making it creative. It's the carefully polishing layout and attention to detail that define an outstanding piece of design. Since hopefully this site is the site you're visiting from whenever you are so go ahead and explore it.
+      &lt;br /&gt;&lt;br /&gt;
+      One more thing, this site isn't even fucking responsive, because I don't fucking care, no one can view shit I've done on a tiny screen anyways. So fuck it, use your laptop or GTFO.
+      &lt;br /&gt;&lt;br /&gt;
+      &lt;em&gt;Bonus: I even considered making it a site with no content like this.&lt;/em&gt;
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;img src=&quot;/assets/img/personal-portfolio/personal-portfolio-version-extra.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;small-12 medium-12 large-6 columns&quot;&gt;
+    &lt;p class=&quot;content__body--text-post&quot;&gt;
+      It's been a long post so thank you for reading and good day to you!
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 24 Sep 2015 00:00:00 +0700</pubDate>
+        <link>http://congphamdesign.com/ux-ui-design/2015/09/24/personal-portfolio.html</link>
+        <guid isPermaLink="true">http://congphamdesign.com/ux-ui-design/2015/09/24/personal-portfolio.html</guid>
+        
+        
+        <category>ux-ui-design</category>
+        
+      </item>
     
       <item>
         <title>Misfit Internal Tools</title>
