@@ -52,6 +52,8 @@ var AnimateUtils = (function($){
       e.removeClass('show');
     },
     init: function(){
+      var duration = 30,
+          display = document.getElementById('count-down-clock');
       AnimateUtils.bodyFadeIn();
       AnimateUtils.postTitleLoading();
       AnimateUtils.sunrise();

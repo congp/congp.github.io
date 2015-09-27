@@ -597,6 +597,9 @@ pre {
       visibility: hidden; }
   #container .about__body {
     padding-top: 1.125rem; }
+    #container .about__body h1 {
+      line-height: 1.2;
+      margin-bottom: 1.5rem; }
     #container .about__body--text {
       font-size: 0.875rem;
       line-height: 1.8; }

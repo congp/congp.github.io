@@ -237,6 +237,11 @@ $on-laptop:        800px;
     &__body {
       padding-top: 1.125rem;
 
+      h1 {
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+      }
+
       &--text {
         font-size: 0.875rem;
         line-height: 1.8;
