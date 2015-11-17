@@ -1,0 +1,6 @@
+@include font-face('Whitney', '../assets/fonts/whitney-pro/whitney-book', 300, normal, $file-formats: eot woff ttf);
+@include font-face('Whitney', '../assets/fonts/whitney-pro/whitney-book-italic', 300, italic, $file-formats: eot woff ttf);
+@include font-face('Whitney', '../assets/fonts/whitney-pro/whitney-medium', 500, normal, $file-formats: eot woff ttf);
+@include font-face('Whitney', '../assets/fonts/whitney-pro/whitney-medium-italic', 500, italic, $file-formats: eot woff ttf);
+@include font-face('Whitney', '../assets/fonts/whitney-pro/whitney-semibold', 600, normal, $file-formats: eot woff ttf);
+@include font-face('Whitney', '../assets/fonts/whitney-pro/whitney-semibold-italic', 600, italic, $file-formats: eot woff ttf);
