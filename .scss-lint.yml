@@ -1,0 +1,30 @@
+scss_files: '_sass/**/*.scss'
+
+exclude:
+  - '_sass/app/vendors/**'
+  - '_sass/library/_syntax.scss'
+  - 'css/main.scss'
+
+linters:
+  # Add a blank line at the end of file
+  FinalNewline:
+    enabled: true
+    present: true
+
+  # The color code should be #ccc instead of #CCC
+  HexNotation:
+    enabled: true
+    style: lowercase
+
+  # Add a space right before { such as:
+  # style-name {
+  SpaceBeforeBrace:
+    enabled: true
+    style: space
+    allow_single_line_padding: false
+
+  Indentation:
+    enabled: false
+    allow_non_nested_indentation: false
+    character: space # or 'tab'
+    width: 4

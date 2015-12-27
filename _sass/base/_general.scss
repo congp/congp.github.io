@@ -1,0 +1,60 @@
+html {
+    background-color: $white;
+    color: $primary-color;
+    font-family: $whitney;
+    font-size: $base-font-size;
+    font-weight: 300;
+    line-height: $base-line-height;
+}
+
+.container {
+    @include align-items(center);
+    @include display(flex);
+    @include size(960px 100vh);
+    margin: 0 auto;
+
+    .wrapper {
+        margin-top: -100px;
+
+        .introductory-text {
+            margin-bottom: 33px;
+            width: 480px;
+        }
+    }
+}
+
+.emoji {
+    @include animation-name(blinking);
+    @include animation-duration(5s);
+    @include animation-timing-function(ease);
+    @include animation-iteration-count(infinite);
+    cursor: default;
+    font-size: $emoji-size;
+    line-height: $emoji-line-height;
+}
+
+.name {
+    font-weight: 500;
+}
+
+@keyframes blinking {
+    0% {
+        @include transform(scaleY(1));
+    }
+
+    49% {
+        @include transform(scaleY(1));
+    }
+
+    50% {
+        @include transform(scaleY(.05));
+    }
+
+    51% {
+        @include transform(scaleY(1));
+    }
+
+    100% {
+        @include transform(scaleY(1));
+    }
+}
