@@ -1,7 +1,8 @@
 // Color
-$primary-color: #31448b;
 $white: #fff;
 $black: #000;
+$dark-grey: #38444c;
+$light-grey: #f2f4f5;
 
 // Text shadow
 $main-text-shadow: #7d87b0;
@@ -17,11 +18,18 @@ $blue-lv6: #8ca5d2;
 $base-border-radius: 5px;
 
 // Typography
-$whitney: 'Whitney', 'Helvetica Neue', sans-serif;
+$source-sans: 'Source Sans Pro', sans-serif;
+
+$font-weight-xlight: 200;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
 $base-line-height: 1.5;
 $large-text-line-height: 1.2;
 $button-line-height: 1.125;
 $emoji-line-height: 2;
-$base-font-size: 20px;
+
+$xlarge-font-size: 42px;
+$base-font-size: 14px;
 $small-font-size: 16px;
 $emoji-size: 28px;

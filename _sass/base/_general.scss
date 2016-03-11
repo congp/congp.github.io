@@ -1,25 +1,47 @@
 html {
     background-color: $white;
-    color: $primary-color;
-    font-family: $whitney;
+    color: $black;
+    font-family: $source-sans;
     font-size: $base-font-size;
-    font-weight: 300;
+    font-weight: $font-weight-regular;
     line-height: $base-line-height;
 }
 
-.container {
-    @include align-items(center);
-    @include display(flex);
-    @include size(960px 100vh);
-    margin: 0 auto;
+.wrapper {
+    margin-left: 90px;
+    margin-top: 61px;
+    padding: 0 20px;
+    width: 600px;
+}
 
-    .wrapper {
-        margin-top: -100px;
+.header {
+    > .email {
+        float: right;
+    }
+}
 
-        .introductory-text {
-            margin-bottom: 33px;
-            width: 480px;
-        }
+.jumbo {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.info {
+    font-size: 0;
+    margin-bottom: 31px;
+
+    .label,
+    .text {
+        display: inline-block;
+        font-size: $base-font-size;
+        vertical-align: top;
+    }
+
+    > .label {
+        width: 100px;
+    }
+
+    > .text {
+        width: 500px;
     }
 }
 
@@ -31,10 +53,6 @@ html {
     cursor: default;
     font-size: $emoji-size;
     line-height: $emoji-line-height;
-}
-
-.name {
-    font-weight: 500;
 }
 
 @keyframes blinking {

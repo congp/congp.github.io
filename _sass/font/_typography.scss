@@ -1,6 +1,15 @@
-@include font-face('Whitney', '../assets/fonts/whitney-pro/whitney-book', 300, normal, $file-formats: eot woff ttf);
-@include font-face('Whitney', '../assets/fonts/whitney-pro/whitney-book-italic', 300, italic, $file-formats: eot woff ttf);
-@include font-face('Whitney', '../assets/fonts/whitney-pro/whitney-medium', 500, normal, $file-formats: eot woff ttf);
-@include font-face('Whitney', '../assets/fonts/whitney-pro/whitney-medium-italic', 500, italic, $file-formats: eot woff ttf);
-@include font-face('Whitney', '../assets/fonts/whitney-pro/whitney-semibold', 600, normal, $file-formats: eot woff ttf);
-@include font-face('Whitney', '../assets/fonts/whitney-pro/whitney-semibold-italic', 600, italic, $file-formats: eot woff ttf);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700);
+
+h2 {
+    font-size: $xlarge-font-size;
+    font-weight: $font-weight-xlight;
+    line-height: $large-text-line-height;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: $black;
+}
