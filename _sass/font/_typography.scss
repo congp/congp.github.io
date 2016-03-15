@@ -12,4 +12,8 @@ p {
 
 a {
     color: $black;
+
+    &:hover {
+        opacity: .75;
+    }
 }
