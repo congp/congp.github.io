@@ -1,0 +1,22 @@
+.mega-center-wrapper {
+    @include align-items(center);
+    @include display(flex);
+    @include justify-content(center);
+    @include size(100% 100vh);
+
+    > .container {
+        margin: 0 auto;
+        max-width: 960px;
+        padding: 0 20px;
+
+        > .matt-lieber {
+            font-size: 20px;
+            font-weight: $font-weight-light;
+            text-align: center;
+        }
+
+        .description {
+            font-weight: $font-weight-regular;
+        }
+    }
+}
