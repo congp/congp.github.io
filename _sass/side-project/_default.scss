@@ -1,0 +1,23 @@
+// Default styling for all side project showcases
+.about-project {
+    $width: 340px;
+    $padding: 20px;
+
+    @include position(fixed, 0 0 0 null);
+    @include size($width 100vh);
+    @include transform(translateX($width + $padding * 2));
+    @include transition(all .1s linear);
+    background: $dark-chocolate;
+    color: $white;
+    font-weight: $font-weight-light;
+    opacity: 0;
+    overflow-y: auto;
+    padding: $padding;
+    visibility: hidden;
+
+    &.-expanded {
+        @include transform(none);
+        opacity: 1;
+        visibility: visible;
+    }
+}

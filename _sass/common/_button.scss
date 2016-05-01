@@ -2,9 +2,9 @@
     @include transition(all .2 linear);
     border-radius: $base-border-radius;
     display: inline-block;
-    font-size: $small-font-size;
+    font-size: $base-font-size;
     font-weight: 600;
-    line-height: $button-line-height;
+    line-height: $base-line-height;
     padding: 16px 40px;
     text-decoration: none;
 

@@ -1,19 +1,9 @@
 // Color
-$white: #fff;
-$black: #000;
-$dark-grey: #38444c;
-$light-grey: #f2f4f5;
-
-// Text shadow
-$main-text-shadow: #7d87b0;
-
-// Button color
-$blue-lv0: #e4efff;
-$blue-lv1: #dae9ff;
-$blue-lv3: #91abd9;
-$blue-lv4: #dcebff;
-$blue-lv5: #c6d4e8;
-$blue-lv6: #8ca5d2;
+$white:              #fff;
+$black:              #000;
+$dark-grey:          #888;
+$light-grey:         #eee;
+$dark-chocolate:  #181d21;
 
 $base-border-radius: 5px;
 
@@ -25,12 +15,7 @@ $font-weight-regular:  400;
 $font-weight-semibold: 600;
 $font-weight-bold:     700;
 
-$base-line-height:       1.5;
-$large-text-line-height: 1.2;
-$button-line-height:   1.125;
-$emoji-line-height:        2;
+$base-line-height:     1.6;
 
-$xlarge-font-size:   42px;
-$base-font-size:     14px;
-$small-font-size:    16px;
-$emoji-size:         28px;
+$base-font-size:      16px;
+$tiny-font-size:      10px;

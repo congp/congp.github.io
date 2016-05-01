@@ -6,14 +6,15 @@ p {
 
 a {
     $yellow-highlight: #fff796;
+    $yellow-highlight-darken: #faee63;
 
-    background: $yellow-highlight;
+    border-bottom: 1px solid $yellow-highlight-darken;
     color: $black;
     font-weight: $font-weight-semibold;
     text-decoration: none;
 
     &:hover {
-        opacity: .75;
+        background: $yellow-highlight;
     }
 }
 

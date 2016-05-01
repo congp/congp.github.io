@@ -2,10 +2,20 @@
 layout: default
 ---
 
-<div class="mega-center-wrapper">
+<div id="mattLieberIs" class="mega-center-wrapper">
   <div class="container">
     <p class="matt-lieber">Matt Lieber is <span class="description" id="replacementText"></span>.</p>
   </div>
+  <div class="instruction">Tap anywhere or press <span class="key">Spacebar</span></div>
+</div>
+<div class="about-project">
+  <p>
+    Matt Lieber Is is a tribute for my favourite podcast, Reply All from Gimlet Media, a show about the Internet. It is the kind of show that gives you astonishing, fascinating and surprising stories that you can’t help but falling in love with. But the true creativity lies in the smallest little details, and one of them is this line “Matt Lieber is ...” everytime at the end of an episode. It’s probably first started out as a Gimlet’s inside joke but then caught on, I’ve noticed this from the very beginning and can’t wait for it every time an episode is completed. I hope PJ and Alex will keep on producing this awesome show and even if one day they’ll stop and move on, I’ll always be your biggest fan.
+    <br/><br/>
+    About Matt, he’s a Gimlet cofounder. A cool guy whom I follow on Twitter and occasionally see this kind of tweet. Oh did I mention about this extremely white teeth?
+    <br/><br/>
+    Lastly, this project is comprised of almost all the saying from the podcast, with some of my own. ;) Enjoy!
+  </p>
 </div>
 
 <script type="text/javascript">
@@ -65,14 +75,26 @@ layout: default
     "light itself - coursing throughout the city spreading information",
     "an animated GIF of a mailman furiously beating a mailbox with a baseball bat",
     "the chairman of Wayne enterprises",
-    "a weekend with good weather and no plans"
+    "a weekend with good weather and no plans",
+    "a dish you've never tried before at a restaurant and it turned out to be great"
   ];
 
-  var replacementText = document.getElementById('replacementText');
+  var replacementText = document.getElementById('replacementText'),
+      mattLieberIs = document.getElementById('mattLieberIs');
 
   function whoIsMattLieber() {
     var randomNumber = Math.floor(Math.random() * data.length);
     replacementText.innerHTML = data[randomNumber];
+  }
+
+  // Initial load when start
+  window.onload = function() {
+    whoIsMattLieber();
+  }
+
+  mattLieberIs.onclick = function(e) {
+    e.preventDefault();
+    whoIsMattLieber();
   }
 
   document.body.onkeyup = function(e) {
