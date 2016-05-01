@@ -1,17 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700);
-
-h2 {
-    font-size: $xlarge-font-size;
-    font-weight: $font-weight-xlight;
-    line-height: $large-text-line-height;
-}
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
 
 p {
     margin: 0;
 }
 
 a {
+    $yellow-highlight: #fff796;
+
+    background: $yellow-highlight;
     color: $black;
+    font-weight: $font-weight-semibold;
+    text-decoration: none;
 
     &:hover {
         opacity: .75;

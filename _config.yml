@@ -15,6 +15,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cong.ph" # the base hostname & protocol for your site
 twitter_username: congphammm
 github_username:  congp
+dribbble_username: cong
+instagram_username: cong.ph
 
 # Build settings
 markdown: kramdown
