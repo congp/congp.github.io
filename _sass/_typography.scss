@@ -1,0 +1,24 @@
+@mixin font-face($font-name, $font-weight, $font-style, $font-src) {
+  font-family: #{$font-name};
+  font-weight: #{$font-weight};
+  font-style: #{$font-style};
+  src: url('../assets/fonts/#{$font-src}.ttf') format('truetype');
+}
+
+$font-name: 'MaisonNeue';
+
+@font-face {
+  @include font-face($font-name, 300, 'normal', 'maisonneuebook');
+}
+
+@font-face {
+  @include font-face($font-name, 300, 'italic', 'maisonneuebookitalic');
+}
+
+@font-face {
+  @include font-face($font-name, 700, 'normal', 'maisonneuebold');
+}
+
+@font-face {
+  @include font-face($font-name, 700, 'italic', 'maisonneuebolditalic');
+}
