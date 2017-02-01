@@ -1,4 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+@include font-face("Akkurat", "/assets/fonts/akkurat/akkurat-normal", 400);
+@include font-face("Akkurat", "/assets/fonts/akkurat/akkurat-normal-italic", 400, italic);
+@include font-face("Akkurat", "/assets/fonts/akkurat/akkurat-bold", 700);
+@include font-face("Akkurat", "/assets/fonts/akkurat/akkurat-bold-italic", 700, italic);
 
 p {
     margin: 0;
@@ -10,7 +13,7 @@ a {
 
     border-bottom: 1px solid $yellow-highlight-darken;
     color: $black;
-    font-weight: $font-weight-semibold;
+    font-weight: $font-weight-bold;
     text-decoration: none;
 
     &:hover {

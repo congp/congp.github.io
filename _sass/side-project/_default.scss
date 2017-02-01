@@ -3,20 +3,22 @@
     $width: 340px;
     $padding: 20px;
 
-    @include position(fixed, 0 0 0 null);
     @include size($width 100vh);
-    @include transform(translateX($width + $padding * 2));
     @include transition(all .1s linear);
     background: $dark-chocolate;
     color: $white;
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-regular;
+    max-width: 0;
     opacity: 0;
     overflow-y: auto;
-    padding: $padding;
     visibility: hidden;
 
+    > p {
+        padding: 20px;
+    }
+
     &.-expanded {
-        @include transform(none);
+        max-width: $width;
         opacity: 1;
         visibility: visible;
     }

@@ -1,19 +1,21 @@
 .mega-center-wrapper {
-    @include align-items(center);
     @include display(flex);
-    @include justify-content(center);
     @include size(100% 100vh);
     cursor: pointer;
     position: relative;
 
     > .container {
+        @include align-items(center);
+        @include display(flex);
+        @include justify-content(center);
+        height: 100vh;
         margin: 0 auto;
         max-width: 960px;
         padding: 0 20px;
+        position: relative;
 
         > .matt-lieber {
             font-size: 20px;
-            font-weight: $font-weight-light;
             text-align: center;
         }
 
@@ -22,7 +24,7 @@
         }
     }
 
-    > .instruction {
+    .instruction {
         @include position(absolute, null 0 30px 0);
         color: $dark-grey;
         font-size: 14px;
@@ -38,5 +40,9 @@
             padding: 4px 13px 4px 15px;
             text-transform: uppercase;
         }
+    }
+
+    button {
+        @include position(absolute, 20px 20px null null);
     }
 }
