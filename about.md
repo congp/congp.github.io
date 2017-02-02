@@ -9,7 +9,7 @@ permalink: /about/
     <p class="about__body--text">
       Hi, my name is Cong.
       <br/><br/>
-      I am a designer and front-end developer, currently working at <a href="http://misfit.com" target="\_blank">Misfit Wearables</a>. Let’s get a little personal so you could know a little about me.
+      I am a product designer, currently working at <a href="http://anduintransact.com" target="\_blank">Anduin Transactions</a>. Let’s get a little personal so you could know a little about me.
       <br/><br/>
       Once upon a time, there was a guy studying Bachelor of Design at RMIT and he loved it. He then graduated with Honour among 18 others from his 2014 class. His classmates went on with their lives after the graduation, so did he. He then received a job offer into a <a href="http://floatingcube.com" target="\_blank">small tech startup company</a> building mobile apps, doing UI/UX design and it was great. With the fond of technology and the vision to change the world we’re living in, he worked hard. Paying attention to every single pixel, curating the best typefaces possible for each project and crafting the best experience for the products he was building.
       <br/><br/>
@@ -26,7 +26,7 @@ permalink: /about/
       Anyways, thank you for reading it this far. Good day to you!
       <br/><br/>
       <b>Find me on social medias</b><br/>
-      <a href="">Dribbble</a> &mdash; <a href="">Twitter</a> &mdash; <a href="">Instagram</a>
+      <a href="https://dribbble.com/cong">Dribbble</a> &mdash; <a href="https://twitter.com/cong_ph">Twitter</a> &mdash; <a href="https://www.instagram.com/cong.ph/">Instagram</a>
     </p>
   </div>
 </div>
