@@ -1,0 +1,30 @@
+---
+layout: default
+title: Shit I've done...
+permalink: /projects/
+---
+
+<div class="row content list-posts">
+  <div class="small-12 medium-6 large-4 columns">
+    {% for post in site.posts %}
+	    <article class="list-posts__post" data-image="{{post.display_id}}">
+	    	<a href="{{ post.url | prepend: site.baseurl }}" class="list-posts__post--title"><h1>{{ post.title }}</h1></a>
+	    	<p class="list-posts__post--excerpt">{{ post.excerpt }}</p>
+	    	<a href="{{ post.url | prepend: site.baseurl }}" class="list-posts__post--link">Have a read &rarr;</a>
+	    </article>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="row project-image">
+	{% for post in site.posts %}
+		<img id="{{post.display_id}}" src="{{ site.baseurl }}/assets/img/{{post.feature_image}}">
+	{% endfor %}
+</div>
+
+<script>
+	$(document).ready(function(){
+		$('header__container--nav a').removeClass('active');
+		$('#projects').addClass('active');
+	});
+</script>
