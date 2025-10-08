@@ -107,6 +107,14 @@ body {
   fill: #333;
 }
 
+.client {
+  display: block;
+}
+
+.client-dark {
+  display: none;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #222;
@@ -134,5 +142,13 @@ body {
 
   .hover-bg-black-10:hover svg {
     fill: #fff;
+  }
+
+  .client{
+    display: none;
+  }
+
+  .client-dark {
+    display: block;
   }
 }
